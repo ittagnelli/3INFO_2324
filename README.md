@@ -1,2 +1,2 @@
 # 3INFO_2324
- matteo mariotti,   TPSI/SISTEMI&RETI
+ matteo mariotti,   SISTEMI&RETI
