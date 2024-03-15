@@ -1,0 +1,45 @@
+
+
+h1 {
+    color: blue;
+    text-transform: uppercase;
+ border-bottom: 5px solid blue;
+ border-left: 7px solid black;
+}
+
+h2{
+    text-decoration: underline;
+    color: red;
+    text-transform: capitalize;
+    border-top: dashed 2px green;
+}
+p{
+    color: blue;
+   text-align: left; 
+   border-bottom: dashed 3px grey;
+   border-left:solid green;
+   border-right: solid green;
+   text-align: justify;
+}
+.franco{
+
+    text-align: right;
+}
+#t3{
+    color: green;
+}
+
+#p7{
+    color: red;
+    text-align: right;
+}
+
+.pari{
+    color: black;
+    outline: 10px;
+}
+
+.dispari{
+    color: red;
+    outline: 3px;
+}
