@@ -1,0 +1,7 @@
+mark> p {color:green}
+b> p {color:yellow}
+b>p {background-color: black;}
+em>div {color:red}
+em>div {background-color: black;}
+span>div {color: black}
+span>div {background-color: yellow;}
