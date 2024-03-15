@@ -1,0 +1,21 @@
+.bg1 {
+    background-image:url("dofr.jfif");
+  }
+
+  .bg2 {
+    background-image:url("alafk.jfif");
+  }
+
+  #bg3 {
+    background-image:url("image.jfif");
+    color: white;
+    width: 350px;
+    height: 220px;
+  }
+  #bg4 {
+    background-image:url("teitf.jfif");
+    color: white;
+    width: 450px;
+    height: 320px;
+  }
+  

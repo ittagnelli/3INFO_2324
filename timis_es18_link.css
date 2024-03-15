@@ -1,0 +1,18 @@
+h1 {
+    border-bottom: solid;
+    width: 5px;
+    border-left: 7px black;
+}
+h2 {
+
+    border-top: 2px dashed greenyellow ;
+    width: 5px;
+    border-left: 7px black;
+}
+  
+    p {
+        border-bottom: 3px dashed gray;
+        border-left: greenyellow;
+        border-right: greenyellow;
+    }
+      

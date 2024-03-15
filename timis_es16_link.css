@@ -1,0 +1,11 @@
+#div1 {
+    width: 250px;
+    padding: 10px;
+    border: color(red);
+    border: 5px solid;
+    margin: 0;
+    padding: 8px;
+    columns: 4;
+    row-gap: 1;
+    float: left;
+  }

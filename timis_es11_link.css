@@ -1,0 +1,18 @@
+p > mark {
+    color: greenyellow;
+  }
+  p > b {
+    color: yellow;
+  }
+  p > b{
+    background-color: black;
+  }
+  div em {
+    color: purple;
+  }
+  div span {
+    color: black;
+  }
+  div span {
+    background-color: yellow;
+  }

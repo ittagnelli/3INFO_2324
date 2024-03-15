@@ -1,0 +1,27 @@
+.board {
+	width: 600px;
+	height: 400px;
+	}
+.red { 
+    background-color: red; 
+}
+.black { 
+    background-color: black; 
+}
+ 
+.purple { 
+    background-color: #B21DE0; 
+}
+ 
+
+.red { 
+    background-color: #E02A1D; 
+}
+
+.rosa {
+    background-color: rgb(255,145,134);
+}
+
+.azzurro {
+    background-color: rgb(134,235,254);
+}
