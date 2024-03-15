@@ -1,0 +1,24 @@
+/* Dichiarazione CSS - border: <width> <style> <color>; */
+
+h1 {
+     text-transform: uppercase; 
+     color: blue;
+}
+
+h2 {
+    text-decoration: underline;
+    color: red;
+    text-transform: capitalize; 
+}
+
+.citazione {
+    text-shadow: 1px 1px 10px blue;
+}
+
+p {
+    text-align: justify;
+}
+
+.p2 {
+    text-align: left;
+}
