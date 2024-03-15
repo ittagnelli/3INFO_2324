@@ -1,0 +1,20 @@
+.parent {
+    background-color: purple;
+    border: 1px solid;
+    width: 300px;
+    height: 100px;
+  }
+
+  #child1 {
+    background-color: rgba(0, 128, 0, 0.65);
+    border: 1px solid;
+    width: 50%;
+    height: 50%;
+  }
+
+  #child2 {
+    background-color: yellow;
+    border: 1px solid;
+    width: 50%;
+    height: 50%;
+  }
