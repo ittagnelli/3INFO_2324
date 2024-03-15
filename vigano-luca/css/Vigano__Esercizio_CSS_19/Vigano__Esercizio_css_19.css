@@ -1,0 +1,5 @@
+h1 {color: blue; text-transform: uppercase;}
+h2 {color: red; text-transform: capitalize; text-decoration: underline;}
+#hu {text-align: right;}
+p {text-align: justify;}
+q {text-shadow: 4px 4px 5px blue;}
