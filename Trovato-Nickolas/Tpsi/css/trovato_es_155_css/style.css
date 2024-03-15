@@ -1,38 +1,21 @@
 .dv1, .dv2, .dv3, .dv4 {
     background-image: url("natura.jpg");
-    width: 250px;
-    background-size: 250px;
-    height: 270px;
+    width: 70%;
+    height: 300px;
     border: 1px solid black;
-    float: left;
   }
 
-.wrapper{
-    margin-left: 25%;
-    margin-top: 100px;
-}
-
-p{
-    border: 5px;
-    border-color: red;
-    text-align: center;
-    margin-top: 220px;
-    padding: 8px;
-    border-style:solid  ; 
-}
-
-.dv1 {
-  background-repeat: no-repeat; 
+  .dv1 {
+     background-repeat: repeat; 
+    }
+  
+  .dv2 { 
+    background-repeat: no-repeat; 
 }
   
-.dv2 { 
-  background-repeat: no-repeat; 
+  .dv3 { 
+    background-repeat: repeat-x; 
 }
   
-.dv3 { 
-  background-repeat: no-repeat; 
-}
-  
-.dv4 {
-     background-repeat: no-repeat;
-}
+  .dv4 {
+     background-repeat: repeat-y; }
