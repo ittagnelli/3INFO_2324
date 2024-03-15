@@ -1,0 +1,29 @@
+td{
+  text-align: center;
+  width: 100px;
+  height: 100px;
+}
+
+#num1{
+  background-color: red;
+}
+
+#num2{
+  background-color: #56d3f8;
+}
+
+#num3{
+  background-color: rgb(23, 182, 85);
+}
+
+#num4{
+  background-color: rgba(223, 122, 15, 0.2);
+}
+
+#num5{
+  background-color: hsl(5, 30%, 54%);
+}
+
+#num6{
+  background-color: hsla(5, 30%, 54%, 0.8);
+}
