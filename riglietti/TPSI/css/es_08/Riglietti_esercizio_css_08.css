@@ -1,0 +1,29 @@
+
+h1, h2, h3 {
+    color: red;
+    text-decoration: underline;
+}
+
+p{
+    color: blue;
+   text-align: left; 
+}
+
+#t3{
+    color: green;
+}
+
+#p7{
+    color: red;
+    text-align: right;
+}
+
+.pari{
+    color: black;
+    outline: 10px;
+}
+
+.dispari{
+    color: red;
+    outline: 3px;
+}
