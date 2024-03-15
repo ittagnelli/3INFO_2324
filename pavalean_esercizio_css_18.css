@@ -1,0 +1,6 @@
+h1 {color: blue;
+    border-bottom: 5px solid red;
+    border-left: 7px solid black;
+    border-top: 2px dashed green;
+    border-right: 3px dashed grey;
+}
