@@ -1,0 +1,29 @@
+h1{
+    text-transform: uppercase;
+    border-bottom: 5px solid blue;
+    border-left: 7px solid black;
+    color: blue;
+}
+.verdi{
+    text-transform: capitalize; 
+    border-top: 2px dashed green;
+    text-decoration: underline;
+    color: red;
+}
+.rossi{
+    color: red;
+}
+.arancioni{
+    border-bottom:3px dashed gray;
+    border-left:3px dashed green;
+    border-right:3px dashed green;
+    color: orange;
+    text-align: justify;
+}
+body:nth-child(ever).arancioni{
+text-align: right;
+}
+.grigi{
+    color: grey;
+    text-shadow: 1px 1px 1px blue;
+}

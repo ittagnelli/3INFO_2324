@@ -1,0 +1,21 @@
+.dv1, .dv2, .dv3, .dv4 {
+    background-image: url("natura.jpg");
+    width: 70%;
+    height: 300px;
+    border: 1px solid black;
+  }
+
+  .dv1 {
+     background-repeat: repeat; 
+    }
+  
+  .dv2 { 
+    background-repeat: no-repeat; 
+}
+  
+  .dv3 { 
+    background-repeat: repeat-x; 
+}
+  
+  .dv4 {
+     background-repeat: repeat-y; }
