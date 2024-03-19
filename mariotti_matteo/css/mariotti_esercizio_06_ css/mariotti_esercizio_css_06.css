@@ -1,0 +1,19 @@
+h1 {
+    color:blue;
+}
+
+#pr1_1, #pr1_2, #pr1_3 { 
+    color: red;
+}
+
+#pr2_1, #pr2_2, #pr2_3 { 
+    color: green;
+}
+
+#pr3_1, #pr3_2, #pr3_3{ 
+    color: gray;
+}
+
+#pr4_1, #pr4_2, #pr4_3 { 
+    color: orange;
+}

@@ -1,0 +1,8 @@
+h1 {border-bottom: solid;
+border-width: 5px;
+border-bottom:blue;}
+h2 {border-top: dotted;
+    border-width: 2px;
+border-top: color green;}
+p {border-bottom: dotted;
+border-bottom: color(srgb rgb(117, 117, 117) rgb(117, 117, 117) rgb(117, 117, 117))}

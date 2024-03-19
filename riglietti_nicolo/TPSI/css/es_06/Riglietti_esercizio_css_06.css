@@ -1,0 +1,20 @@
+
+h1{
+    color: blue;
+}
+
+#t1, #t3, #t5{
+    color: red;
+}
+
+#t2, #t4, #t6{
+    color: green;
+}
+
+#p1, #p3, #p5{
+    color: gray;
+}
+
+#p2, #p4, #p6{
+    color: orange;
+}
