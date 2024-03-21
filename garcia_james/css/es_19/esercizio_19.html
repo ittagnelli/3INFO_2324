@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-    <link rel="stylesheet" href="stile.css" type="text/css" />
     <title>External CSS</title>
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="esercizio_19.css" type="text/css">
 </head>
 <html>
-<h1>localhost</h1>
+<h1 id="ciao">localhost</h1>
 In computer networking, localhost is a hostname that refers to the current computer used to access it. It is used to access the network services that are running on the host via the loopback network interface. Using the loopback interface bypasses any local network interface hardware.
 
 <h2 id="i2">Loopback</h2>
@@ -14,10 +13,10 @@ The local loopback mechanism may be used to run a network service on a host with
 The name localhost normally resolves to the IPv4 loopback address 127.0.0.1, and to the IPv6 loopback address ::1.
 
 <h2 id="b2">Name resolution</h2>
-IPv4 network standards reserve the entire address block 127.0.0.0/8 (more than 16 million addresses) for loopback purposes.[2] That means any packet sent to any of those addresses is looped back. The address 127.0.0.1 is the standard address for IPv4 loopback traffic; the rest are not supported by all operating systems. However, they can be used to set up multiple server applications on the host, all listening on the same port number. The IPv6 standard assigns only a single address for loopback: ::1.
+<p id="oo">IPv4 network standards reserve the entire address block 127.0.0.0/8 (more than 16 million addresses) for loopback purposes.[2] That means any packet sent to any of those addresses is looped back. The address 127.0.0.1 is the standard address for IPv4 loopback traffic; the rest are not supported by all operating systems. However, they can be used to set up multiple server applications on the host, all listening on the same port number. The IPv6 standard assigns only a single address for loopback: ::1.
 The resolution of the name localhost to one or more IP addresses is normally configured by the following lines in the operating system's hosts file:
 127.0.0.1    localhost
-::1          localhost
+::1          localhost</p>
 
 The <p id="s2">name</p> may also be resolved by Domain Name System (DNS) servers, but queries for this name should be resolved locally, and should not be forwarded to remote name servers.
 
