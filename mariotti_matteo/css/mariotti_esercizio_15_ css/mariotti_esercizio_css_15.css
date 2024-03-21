@@ -1,0 +1,33 @@
+#img1 #img3 #img4 #img5 #img6 #img1_1 #img3_1 #img4_1 #img5_1 #img6_1 {
+    background-image:("./3INFO_MARIOTTI/imm_x_es/immagine_a_caso.png");
+    width: 250px;
+    height: 90px;
+    border: 1px solid black;
+} 
+
+#img1 #img1_1{
+width: 100px;
+height: 100px;
+}
+
+#img2 #img2_1{
+width: 50%;
+height: 50%;
+background-image:("./3INFO_MARIOTTI/imm_x_es/immagine_a_caso.png");
+}
+
+#img3 #img3_1 {
+    background-repeat: repeat;
+}
+ 
+#img4 #img4_1 {
+    background-repeat: no-repeat;
+}
+
+#img5 #img5_1 { 
+    background-repeat: repeat-x; 
+}
+
+#img6 #img6_1 { 
+    background-repeat: repeat-y; 
+}
