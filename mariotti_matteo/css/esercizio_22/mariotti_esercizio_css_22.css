@@ -1,0 +1,18 @@
+div {
+    display: inline;
+    border: 1px solid;
+    margin: 0;
+    width: 5em;
+    height: 1em;
+    padding: 5px;
+    background-color: green;
+    float: left;
+}
+
+div{
+align-content: center;
+}
+
+div:hover {
+    background-color: gray;
+}
