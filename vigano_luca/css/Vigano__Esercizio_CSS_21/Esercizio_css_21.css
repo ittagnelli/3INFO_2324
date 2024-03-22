@@ -1,0 +1,19 @@
+li{
+    list-style: none;
+    float: left;
+    text-align: center;
+    border:1px solid;
+    width: 50px;
+    height:20px;
+    background-color: green;
+    padding: 5px;
+}
+
+li:hover{
+    background-color: aqua;
+}
+
+body{
+    padding-right: 40%;
+    padding-left: 40%;
+}

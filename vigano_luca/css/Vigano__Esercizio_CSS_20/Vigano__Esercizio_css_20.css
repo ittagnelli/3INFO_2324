@@ -1,0 +1,30 @@
+ul {
+    list-style-type: none;
+  }
+
+#h1-1{
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+}
+
+#h1-2{
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+#h1-3{
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#ul-1{
+    list-style-type: circle;
+}
+
+#ol-1{
+    list-style-type: upper-roman
+
+}
