@@ -1,0 +1,18 @@
+li{
+
+    list-style: none;
+    float: left;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    
+}
+
+body{
+    padding-top: 30px;
+    padding-left: 41%;
+}
+
+li:hover{
+    background-color: gray;
+}
