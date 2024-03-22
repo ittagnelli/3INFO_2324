@@ -1,0 +1,24 @@
+div{
+    float: left;
+    width: 100px;
+    height:30px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    
+  }
+
+  div:hover{
+    background-color: gray;
+  }
+
+
+body{
+    padding-top: 30px;
+    padding-left: 30%;
+}
+
+li:hover{
+    background-color: gray;
+}
