@@ -1,0 +1,33 @@
+h1{
+      color:blue;
+      text-transform: uppercase;
+
+}
+
+h2{
+    color:red;
+    text-transform:capitalize underline;
+}
+
+p { 
+               color: grey;
+               text-align: justify;
+  }
+
+p{
+               color: grey;
+               text-align: justify;
+  }
+
+p{
+                color: grey;
+                text-align: justify;
+}
+
+          .rosso { 
+               color: red;
+          }
+
+          .verde {
+                color: green;
+          }
