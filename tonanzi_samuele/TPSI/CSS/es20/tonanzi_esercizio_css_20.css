@@ -1,0 +1,49 @@
+#h1_1{
+    color: red;
+    font-family: "Maven Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+#h1_2{
+    color: red;
+    font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+}
+#h1_3{
+    color: red;
+    font-family: "Cormorant Unicase", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2{
+    color: green;
+}
+
+p{
+    color: blue;
+}
+ol.roman {
+    list-style-type: upper-roman;
+  }
+  
+  ul.cercho {
+    list-style-type: circle;
+  }
+  
+  ul.icon{
+    list-style-type: none;
+}
+ ul li:before {
+    content: 'done_outline';
+    font-family: 'Material Icons';
+    color: red;
+    vertical-align: -10%;
+    padding-right: 10px;
+  }
