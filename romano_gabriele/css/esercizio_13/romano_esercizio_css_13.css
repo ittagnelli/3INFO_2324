@@ -1,0 +1,41 @@
+.table{
+    width: 300px;
+    height: 300px;
+}
+
+table > td{
+    width: 100%;
+    height: 100%;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.brown{
+    background-color: brown;
+}
+
+.brownhex{
+    background-color: #F7DBA7;
+}
+
+.yellowhex{
+    background-color: #F1AB86;
+}
+
+.rgb{
+    background-color: rgb(0, 0, 0);
+}
+
+.rgba{
+    background-color: rgba(240, 120, 55,0.5);
+}
+
+.hls{
+    background-color: hls(3, 230%, 80%);
+}
+
+.hlsa{
+    background-color: hlsa(3, 230%, 80%, 0.75);
+}
