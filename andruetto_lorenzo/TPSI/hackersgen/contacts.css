@@ -1,0 +1,24 @@
+.contacts-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.contact-item h2{
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 768px){
+    .contacts-section{
+        flex-direction: column;
+    }
+
+    .contact-item h2{
+        margin-bottom: 0;
+    }
+
+    .contacts-section > :not(:last-child){
+        margin-bottom: 2rem;
+    }
+}

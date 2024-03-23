@@ -1,0 +1,251 @@
+:root{
+    --primary800: #0e111b;
+    --primary500: #2e3a59;
+    --primary400: #434e6a;
+    --gray100: #f7f7fc;
+    --gray200: #eaebee; 
+}
+
+*{
+    margin: 0;
+}
+
+body{
+    font-family: 'roboto', sans-serif;
+}
+
+h1{
+    font-size: 6rem;
+    line-height: 104px;
+    font-weight: normal;
+}
+
+h2{
+    font-size: 3rem;
+    line-height: 56px;
+}
+
+h3{
+    font-size: 1.5rem;
+    line-height: 32px;
+}
+
+h4{
+    font-size: 1.25rem;
+    line-height: 24px;
+}
+
+h1,
+h2,
+h3,
+h4,
+p{
+    color: var(--primary500);
+    font-weight: normal;
+}
+
+a,
+a:visited,
+a:focus{
+    text-decoration: none;
+    color: var(--primary500);
+}
+
+div.logo{
+    font-size: 1.5rem;
+    line-height: 32px;
+}
+
+nav div.logo{
+    font-weight: bold;
+    color: var(--primary500);
+}
+
+nav .menu{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+nav{
+    display: flex;
+    height: 80px;
+    flex-direction: row;
+    margin-top: 3rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.active{
+    font-weight: bold;
+}
+
+div.safe-area{
+    max-width: 1200px;
+    width: 90vw;
+    margin-inline: auto;
+    min-height: 100vh;
+}
+
+div.spaced-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div.content > :not(:last-child) {
+    margin-bottom: 2rem;
+}
+
+img.main-image{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+}
+
+.title-block{
+    width: 100%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.title-block h1{
+    margin-bottom: 1rem;
+}
+
+.title-block h3{
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+footer{
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    color: var(--primary500);
+    position: relative;
+}
+
+footer::after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    top: 13.5%;
+    margin-left: 10px;
+    background-color: var(--primary500);
+}
+
+.full-width-logo{
+    width: 100%;
+}
+
+@media (max-width: 1200px){
+    .safe-area{
+        padding-inline: 1.5rem;
+    }
+}
+
+@media (max-width: 768px){
+    h1{
+        font-size: 2.5rem;
+        line-height: 44px;
+    }
+
+    h2{
+        font-size: 2rem;
+        line-height: 40px;
+    }
+
+    h3{
+        font-size: 1.125rem;
+        line-height: 24px;
+    }
+
+    .title-block{
+        margin-top: 0;
+    }
+
+    .toggler{
+        opacity: 0;
+        z-index: 3;
+        display: block;
+        cursor: pointer;
+        width: 30px;
+        height: 10px;
+    }
+
+    .hamburger{
+        position: absolute;
+        right: 0;
+        z-index: 2;
+        width: 30px;
+        height: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .hamburger > div{
+        position: relative;
+        width: 100%;
+        height: 3px;
+        background-color: var(--primary500);
+    }
+
+    .hamburger > div:before{
+        content: "";
+        position: absolute;
+        top: -10px;
+        background-color: inherit;
+        width: 100%;
+        height: 3px;
+    }
+
+    .toggler:checked{
+        height: 30px;
+    }
+
+    .toggler:checked + .hamburger > div{
+        transform: rotate(135deg);
+        position: absolute;
+        top: 0;
+    }
+
+    .toggler:checked + .hamburger > div:before{
+        transform: rotate(90deg);
+        top: 0;
+    }
+
+    .toggler:checked ~ .menu {
+        display: flex;
+        z-index: 1;
+    }
+
+    nav{
+        position: relative;
+    }
+
+    nav .menu{
+        position: fixed;
+        height: 100vh;
+        width: 100vw;
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        top: 50%;
+        left: 50%;
+        background-color: white;
+        transform: translate(-50%, -50%);
+    }
+}
