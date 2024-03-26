@@ -1,0 +1,69 @@
+/* Dichiarazione CSS - border: <width> <style> <color>; */
+
+h1 {
+     text-transform: uppercase; 
+     color: blue;
+}
+
+h2 {
+    text-decoration: underline;
+    color: red;
+    text-transform: capitalize; 
+}
+
+.citazione {
+    text-shadow: 1px 1px 10px blue;
+}
+
+p {
+    text-align: justify;
+}
+
+.p2 {
+    text-align: left;
+}
+
+p { 
+font-family: "Times New Roman", Times, serif;
+font-style:italic;
+font-weight: normal;
+font-size: 1em; /* Font in base proporzionale in base alle proporzioni del browser */
+}
+
+.nova-flat-regular {
+    font-family: "Nova Flat", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.krona-one-regular {
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.geostar-fill-regular {
+    font-family: "Geostar Fill", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+ul.cercho {
+    list-style-type: circle;
+  }
+
+  ol.roman {
+    list-style-type: upper-roman;
+  }
+
+  .ciao2 {
+    list-style-type: none;
+  }
+
+  .ciao:before {
+    content: 'done_outline';
+    font-family: 'Material Icons';
+    color: red;
+    vertical-align: -10%;
+    padding-right: 10px;
+  }
