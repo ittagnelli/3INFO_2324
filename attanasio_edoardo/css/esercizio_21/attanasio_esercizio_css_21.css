@@ -1,0 +1,8 @@
+.menu li{
+    display: inline;
+    padding: 15px 20px;
+    float: left;
+    color: #ffffff;
+    background-color: hsl(0,0%,15%);
+}
+li:hover{background-color: #808080;}
