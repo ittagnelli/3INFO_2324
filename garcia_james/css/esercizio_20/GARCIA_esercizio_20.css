@@ -1,0 +1,44 @@
+#ciao{
+    font-family: "Londrina Outline", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#addio{
+    font-family: "Noto Sans Buhid", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+#lol{
+    
+        font-family: "Ruslan Display", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    
+      
+}
+ul {
+    list-style-type: none;
+  }
+    
+  li:before {
+    content: 'done_outline';
+    font-family: 'Material Icons';
+    color: red;
+    vertical-align: -10%;
+    padding-right: 10px;
+  }
+  ol.roman {
+    list-style-type: upper-roman;
+  }
+  
+  ol.alpha {
+    list-style-type: lower-alpha;
+  }
+  ul.cercho {
+    list-style-type: circle;
+  }
+  
+  ul.quadrato {
+    list-style-type: square;
+  }
