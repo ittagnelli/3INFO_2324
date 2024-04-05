@@ -1,0 +1,27 @@
+.contenitore {
+    width: 1000px;
+    height: 1000px;
+    align-items: center;
+}
+
+.colonna {
+    float: left;
+}
+
+.quadrato {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    border: 1px solid black;
+}
+
+.colonna:nth-child(even) > .quadrato:nth-child(odd) {
+    background-color: black;
+    color: white;
+}
+
+.colonna:nth-child(odd) > .quadrato:nth-child(even) {
+    background-color: black;
+    color: white;
+}
