@@ -1,0 +1,17 @@
+div:nth-child(odd) > div:nth-child(even){
+    background-color: black;
+    color: white;
+}
+div:nth-child(even) > div:nth-child(odd){
+    background-color: black;
+    color: white;
+}
+.item{
+    width: 5rem;
+    height: 5rem;
+    float: none;
+    border: 1px solid;
+    text-align: center;
+    line-height: 5rem;
+}
+.riga{float: left}
