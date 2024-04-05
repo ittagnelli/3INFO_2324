@@ -1,0 +1,10 @@
+poh1{color: blue;}
+.rosso{color: red;}
+.verde{color: green;}
+.arancione{color: gray;}
+.grigio{color: orange;}
+
+li:nth-child(even) {
+    color: red;
+    background-color: yellow;
+}
