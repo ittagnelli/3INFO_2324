@@ -1,0 +1,19 @@
+nav {
+    width: 500px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav > div {
+    width: 100px;
+    height: 50px;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    background-color: gray;
+}
+
+nav > div:hover {
+    background-color: darkgray;
+}
