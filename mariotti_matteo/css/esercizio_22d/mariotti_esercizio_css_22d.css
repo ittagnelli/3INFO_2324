@@ -1,0 +1,38 @@
+.left {
+  border-radius: 12px;
+  background-color: purple;
+ /* border: 1px solid yellow;*/
+  color:white;
+  text-justify: left;
+  height: 8rem;
+  width: 7rem;
+  float: left;
+  padding-left: 10px;
+  padding-top: 10px;
+  }
+
+.contenitore{
+  /*border: 1px solid blue;*/
+  width: 100%;
+  height: 10rem;
+  width: 24rem;
+  padding-left: 2rem;
+  padding-top: 2rem; 
+}
+
+
+.right{
+  color: black;
+  float: right;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.under {
+   /* border: 1px solid blue;*/
+    height: 1rem;
+    width: 24rem;
+    float: bottom;
+    text-justify: left; 
+    padding-left: 1.5rem; 
+}
