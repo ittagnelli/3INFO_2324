@@ -1,0 +1,20 @@
+.container{
+    width: 500px;
+    height: 160px;
+}
+.container > div:nth-child(odd){
+    color: #ffffff;
+    border-radius: 5px;
+    background-color: blueviolet;
+    height: calc(100% - 20px);
+    width: calc(33% - 20px);
+    padding: 10px;
+}
+.container > div:nth-child(even){
+    height: calc(100% - 20px);
+    width: calc(33% - 20px);
+    padding: 10px;
+    text-justify:left;
+    line-height: 30px;
+}
+div{float: left;}

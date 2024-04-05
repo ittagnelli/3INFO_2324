@@ -1,0 +1,29 @@
+.boh{
+    float: left;
+    background-color: aqua;
+    margin-left: 35px;
+    color: black;
+    margin-top: 20px;
+    width: 150px;
+    height: 170px;
+    border-radius: 6px;
+       
+}
+
+.div1{
+    background-color: purple;
+    width: 550px;
+    height: 230px;
+    color: white;
+    font-size: 1.4rem;
+   
+}
+
+p{
+    float: left;
+    margin: 20px;
+    margin-top: 30px;
+}
+
+
+

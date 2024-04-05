@@ -1,0 +1,17 @@
+.main{
+    float: left;
+    margin: 20px;
+    align-items: center;
+}
+
+.img{
+    width: 250px;
+}
+
+.didascalia{
+    border: 5px solid red;
+}
+
+.didascalia > h3{
+    padding: 10px;
+}

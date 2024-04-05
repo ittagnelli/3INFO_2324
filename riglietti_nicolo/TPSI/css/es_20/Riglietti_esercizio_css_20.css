@@ -1,0 +1,25 @@
+.t1{
+    font-family: "Chonburi", serif;
+}
+
+.t2{
+    font-family: "Rubik Dirt", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.t3{
+    font-family: "Reggae One", system-ui;
+    font-weight: 400;
+}
+
+ul{
+    list-style: none;
+}
+.cerchio{
+    list-style-type: circle;
+}
+
+.roman{
+    list-style-type: upper-roman;
+}

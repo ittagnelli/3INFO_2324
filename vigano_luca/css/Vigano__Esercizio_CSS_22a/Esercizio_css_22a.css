@@ -1,0 +1,22 @@
+.container:nth-child(even)>div:nth-child(odd){
+    background-color: rosybrown;
+}
+.container:nth-child(odd)>div:nth-child(even){
+    background-color: rosybrown;
+}
+
+.container{
+    border: 0px;
+}
+
+div{
+    float: left;
+    text-align: center;
+    width: 100px;
+    height:100px;
+    padding-inline: 5px;
+    border: 1px;
+    border: solid;
+    line-height: 100px;
+    font-size: 20px;
+}

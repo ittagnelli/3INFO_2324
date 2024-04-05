@@ -1,0 +1,13 @@
+.menu li {
+  display: inline;
+  color: black;
+  background-color: grey;
+  border: 1px solid;
+  margin: 0;
+  padding: 5px;
+}
+li:hover{
+  background-color: blue;
+  color:gray;
+}
+  
