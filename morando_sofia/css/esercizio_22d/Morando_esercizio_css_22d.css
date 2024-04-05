@@ -1,0 +1,27 @@
+
+
+.contenitore{
+    width:500px;
+    height:150px;
+    background-color: blueviolet;
+    border-radius:10px;
+    padding-top: 30px;
+
+}
+
+.testo{
+    width: 70%;
+    height:200px;
+    float: right;
+    color: black;
+    padding-top: 20px;
+}
+
+.spazio{
+    width: 28%;
+    height:150px;
+    float: left;
+    padding-top: 20px;
+    background-color: white;
+
+}
