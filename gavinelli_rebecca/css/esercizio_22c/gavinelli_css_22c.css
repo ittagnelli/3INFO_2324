@@ -1,0 +1,24 @@
+
+.contenitore{
+     width: 400px;
+     height: 200px;
+     background-color: rgb(154, 85, 219);
+}
+
+.testo{
+    width: 70%;
+    height: 150px;
+    float: left;
+    color: white;
+    padding-top: 20px;
+}
+
+.foto{
+    border: 1px solid black;
+    width: 28%;
+    height: 150px;
+    float: left;
+    background-color: rgb(163, 233, 210);
+    padding-top: 20px;
+    margin-top: 15px;
+}
