@@ -9,6 +9,6 @@ img{
 }
 
 .container {
-  border: 1px solid;
+  border: 10px solid lightblue;
   float: left;
 }
