@@ -1,0 +1,16 @@
+div {
+    margin: 10px;
+    float: left;
+    text-align: justify;
+    height: 500px;
+    width: 215px;
+}
+
+.one_two {
+    margin-left: 10px;
+    font-weight: bold;
+    color: white;
+    border: 1 solid purple;
+    border-radius: 12px;
+    background-color: purple;
+}
