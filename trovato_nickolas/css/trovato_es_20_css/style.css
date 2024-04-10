@@ -1,0 +1,19 @@
+h1 {
+    font-family: 'Font 1', sans-serif;
+}
+
+h1 + h1 {
+    font-family: 'Font 2', sans-serif;
+}
+
+h1 + h1 + h1 {
+    font-family: 'Font 3', sans-serif;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+ol.roman {
+    list-style-type: lower-roman;
+}

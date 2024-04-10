@@ -1,0 +1,68 @@
+.reenie-beanie-regular {
+    font-family: "Reenie Beanie", cursive;
+    font-weight: 400;
+    font-style: normal;
+}  
+
+
+.piedra-regular {
+    font-family: "Piedra", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+    color: red;
+}
+
+#h1{
+    font-family: "Reenie Beanie", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#h2{
+    font-family: "Antonio", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#h3{
+    font-family: "Piedra", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2{
+    color: green;
+}
+
+p{
+    color: blue;
+}
+
+ol{
+    list-style-type: upper-roman;
+}
+
+ul{
+    list-style-type: circle;
+}
+
+.material-symbols-outlined{
+    color: black;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+
+.unordered-list-googlefonts li:before {
+    content: 'done_outline';
+    font-family: 'Material Icons';
+    color: red;
+    vertical-align: -10%;
+    padding-right: 10px;
+}  
