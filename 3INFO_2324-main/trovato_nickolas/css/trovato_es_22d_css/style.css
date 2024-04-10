@@ -1,0 +1,22 @@
+#block{
+    background-color: purple;
+    border-radius: 12px;
+    border: 1px;
+    border: solid;
+    border-color: purple;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+#text{
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+#bot{
+    float: bottom;
+    height: 100px;
+    width: 200px;
+}
+
+

@@ -1,0 +1,31 @@
+#cont{
+    background-color: purple;
+    width: 365px;
+    height: 130px;
+    padding-top: 20px;
+    padding-left: 15px;
+    border-radius: 12px;
+    border: 1px;
+    border: solid;
+    border-color: purple;
+    padding-right: 20px;
+}
+
+div{
+    color: white;
+    float: left;
+    text-justify: left;
+}
+
+#right{
+    background-color: aquamarine;
+    float:right;
+    height: 90px;
+    width: 95px;
+    padding-top: 10px;
+    padding-left: 5px;
+    border-radius: 12px;
+    border: 1px;
+    border: solid;
+    border-color: aquamarine;
+}
