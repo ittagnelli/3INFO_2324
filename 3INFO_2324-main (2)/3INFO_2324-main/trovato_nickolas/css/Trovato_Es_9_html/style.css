@@ -1,0 +1,52 @@
+body {
+  background-image: url(imgfiles.gif);
+  background-size: 100%;
+    background-repeat: no-repeat; 
+    margin: 0%;
+}
+
+nav {
+  animation: mymove 2s forwards;
+}
+
+div> a{
+  text-align: center;
+  font-size: xx-large;
+  text-decoration: none;
+  padding: 1%;
+  margin: 9%;
+  animation: Home 2s forwards;
+}
+div> a:hover{
+  text-align: center;
+  font-size: xx-large;
+  padding: 2%;
+  margin: 8%;
+}
+div{
+  text-align: center;
+  float: left;
+  width: 100%;
+}
+
+nav > h1 {
+  font-size: 100px;
+  text-align: center;
+  margin: 0%;
+  animation: Home 2s forwards;
+}
+
+@keyframes Home {
+  from{color: rgba(255, 255, 255, 0);background-color: rgb(255, 255, 255);}
+  to{color: aliceblue;background-color: rgba(9, 54, 136);}
+}
+
+@keyframes mymove {
+  0% {background-color: rgb(252, 252, 252);margin-top: 0%;padding: 5%;}
+  100% {background-color: rgb(9, 54, 136);margin-top: 30%;padding: auto;}
+}
+
+@keyframes mymoves {
+  0% {background-color: rgb(252, 252, 252);margin-top: 0%;padding: 5%;}
+  100% {background-color: rgb(9, 54, 136);margin-top: 30%;padding: auto;}
+}
