@@ -1,0 +1,34 @@
+.one {
+  background-color: purple;
+  border-radius: 12px;
+ /* border: 1px solid yellow;*/
+  color:white;
+  line-height: 3rem;
+  padding-left: 2rem;
+  }
+  
+  .two {
+  background-color: purple;
+  border-radius: 12px;
+   /*border: 1px solid green; */
+  color: white;
+  line-height: 3rem;
+  padding-left: 2rem;
+  }
+
+.centro{
+  /*border: 1px solid red;*/
+  line-height: 40px;
+  text-align: center;
+ }
+
+.contenitore{
+ /* border: 1px solid blue;*/
+  width: 100%;
+}
+
+div{
+  float: left;
+  height: 10rem;
+  width: 7rem;
+}

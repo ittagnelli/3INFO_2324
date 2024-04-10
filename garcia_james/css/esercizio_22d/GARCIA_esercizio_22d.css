@@ -1,0 +1,27 @@
+#left{
+    float: left;
+    background-color: purple;
+    width: 20%;
+    height: 110px;
+    color: white;
+    padding: 20px;
+    border-radius: 5px 5px 5px 5px;
+}
+#right{
+    float: left;
+    width: 50%;
+    padding: 20px;
+    height: 110px;
+}
+
+#bottom {
+    border: 0px solid black;
+    width: 30%;
+    padding: 10px;
+}
+
+#wrap {
+    border: 0px solid black;
+    width: 30%;
+    height: 150px;
+}

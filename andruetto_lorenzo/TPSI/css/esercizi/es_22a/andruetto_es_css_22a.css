@@ -1,0 +1,32 @@
+div{
+    text-align: center;
+}
+
+.riga > div{
+    float: none;
+    display: inline-block;
+    height: 5rem;
+    width: 5rem;
+}
+
+.cells > div{
+    float: left;
+}
+
+div:nth-child(even) > div:nth-child(odd){
+    background: white;
+}
+
+div:nth-child(odd) > div:nth-child(even){
+    background: white;
+}
+
+div:nth-child(odd) > div:nth-child(even){
+    background: black;
+    color: white;
+}
+
+div:nth-child(even) > div:nth-child(odd){
+    background-color:black;
+    color:white;
+}
