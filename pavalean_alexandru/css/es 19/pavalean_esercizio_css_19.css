@@ -1,0 +1,10 @@
+h1 {color: red;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px blue;
+}
+
+h4 {color: white;
+    text-shadow: 4px 4px 10px black;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
