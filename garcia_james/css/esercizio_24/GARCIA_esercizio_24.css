@@ -1,0 +1,10 @@
+#parent {
+    border: 3px solid green;
+    width: 400px;
+    height: 150px;
+  }
+  img{
+    width: 400px;
+    height: 150px;
+  }
+  
