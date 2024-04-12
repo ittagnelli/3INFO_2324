@@ -1,0 +1,17 @@
+.container {
+    position: relative;
+    width: 500px;
+}
+
+.testo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: yellow;
+    padding: 5px;
+    font-size: 20px;
+}
+
+img {
+    width: 300px;
+}
