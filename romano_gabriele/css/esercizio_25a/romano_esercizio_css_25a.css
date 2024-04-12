@@ -1,0 +1,43 @@
+.contenitore {
+    width: 1000px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid lightblue;
+}
+
+.contenitore div {
+    padding-left: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.dim-hf {
+    height: 70px;
+    line-height: 70px;
+}
+
+.dim-c {
+    float: left;
+    height: 360px;
+    line-height: 360px;
+}
+
+.header {
+    background-color: orange;
+}
+
+.sidebar {
+    width: 30%;
+    background-color: yellow;
+}
+
+.main-content {
+    width: calc(70% - 20px);
+    background-color: blue;
+}
+
+.footer {
+    clear: both;
+    background-color: green;
+}
