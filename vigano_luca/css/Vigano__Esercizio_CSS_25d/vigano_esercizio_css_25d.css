@@ -1,0 +1,20 @@
+.cont{
+    display: grid;
+    grid-template-columns: 750px 250px;
+    background-color: aquamarine;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.img{
+    border: 1px solid black;
+    
+}
+
+.sidebar{
+    padding: 25px;
+    border: 1px solid brown;
+    display: grid;
+    grid-template-rows: 208px 60px 25px 10px 30px 25px 25px 25px 25px 25px 10px;
+    background-color: darkblue;
+}

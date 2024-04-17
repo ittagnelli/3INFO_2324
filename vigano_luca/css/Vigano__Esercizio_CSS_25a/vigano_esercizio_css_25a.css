@@ -1,0 +1,33 @@
+#maincontent {
+    background-color: blue;
+    height: 300px;
+    width: 500px;   
+    float: left;
+}
+
+#sidebar{
+    background-color: yellow;
+    height: 300px;
+    width: 300px;
+    float: left;    
+}
+
+#header {
+    background-color: orange;
+    height: 50px;
+    width: 800px;
+}
+
+#footer {
+    background-color: green;
+    height: 50px;
+    width: 800px;
+    clear: both;
+    float: bottom;
+}
+
+#container  {
+    border: 10px solid lightblue;
+    height: 435px;
+    width: 800px;
+}
