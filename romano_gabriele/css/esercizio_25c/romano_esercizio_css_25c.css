@@ -1,3 +1,66 @@
 nav {
+    width: 100%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: orange;
+}
+
+nav div {
+    position: absolute;
+    height: 70px;
+    top: 25px;
+    text-align: center;
+    line-height: 70px;
+    background-color: palevioletred;
+}
+
+.logo {
+    width: 100px;
+    left: 20px;
+}
+
+.navigation {
+    width: 150px;
+    right: 50px;
+}
+
+.box {
+    height: 300px;
+    background-color: greenyellow;
+    border: 20px solid lightskyblue;
+}
+
+.box div {
+    position: relative;
+    left: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.title {
+    top: 20px;
+    font-size: 25px;
+}
+
+.img {
+    float: left;
+    width: 320px;
+    height: 90px;
+    top: 40px;
+    background-image: url(https://www.fotografidigitali.it/articoli/2891/448.jpg);
+    background-repeat: no-repeat;
+    border: 10px solid olivedrab;
+}
+
+.desc {
+    float: left;
+    width: 1420px;
+    height: 95px;
+    top: 40px;
+    margin-left: 50px;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+    background-color: darkolivegreen;
 }
