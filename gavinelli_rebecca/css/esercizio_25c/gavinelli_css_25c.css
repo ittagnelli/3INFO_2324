@@ -1,0 +1,72 @@
+#top{
+    position: sticky;
+    height: 100px;
+    background-color: rgb(231, 131, 68);
+    padding-left: 1rem;    
+    padding-right: 1rem;
+}
+
+.logo{  
+    float: left;
+    height: 30px;
+    width: 70px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 35px;
+    background-color: rgb(245, 8, 87);
+}
+
+.navigation{
+    float: right;
+    height: 30px;
+    width: 120px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 35px;
+    background-color: rgb(232, 92, 45);
+}
+
+.cont{
+    clear: both;
+    float: bottom;
+    background-color: rgb(97, 183, 220);
+    padding: 20px;
+    height: auto;
+}
+
+.post{
+    clear: both;
+    float: bottom;
+    height: 250px;
+    background-color: rgb(165, 233, 70);
+    padding-top: 5px;
+}
+
+.spazio{
+    float: left;
+    width: 60px;
+    height: 80px;
+}
+
+.img{
+    float: left; 
+    border: 15px solid rgb(112, 150, 47);
+}
+
+.text{
+    float: left;
+    padding-left: 20px;
+    width: 1355px;
+    background-color: rgb(68, 109, 6);
+}
+
+img{
+    width: 350px;
+    height: 100px;
+}
+
+.title{
+    float: top;
+    padding-left: 10px;
+    color: white;
+}
