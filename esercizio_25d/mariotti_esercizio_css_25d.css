@@ -1,6 +1,7 @@
 #container{
     border: 10px solid aqua;
     border-radius: 5px;
+    height: 770px;
 
 }
 
@@ -10,17 +11,17 @@
     height: 760px;
     border-radius: 5px;
 
-   /* float: left;*/
+   float: left;
 }
 
 #Infos_cont{
     
     padding-right: 1rem;
-    /*float: right;*/
     border-radius: 5px;
     background-color: blue;
-    float: top;
-
+    color:white;
+    height: 760px;
+    padding-left: 1rem;
 }
 
 #logo{
