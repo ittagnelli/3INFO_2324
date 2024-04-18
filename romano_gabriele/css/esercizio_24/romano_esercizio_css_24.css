@@ -1,0 +1,17 @@
+.contenitore {
+    width: 700px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(https://www.turismoweekend.com/wp-content/uploads/2018/10/weekend-montagna.jpg);
+    background-repeat: no-repeat;
+}
+
+div div {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: yellow;
+}
