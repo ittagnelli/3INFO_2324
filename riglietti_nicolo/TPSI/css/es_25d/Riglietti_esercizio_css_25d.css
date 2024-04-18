@@ -1,0 +1,68 @@
+#container {
+    background-color: lightblue;
+    height: 750px;
+    width: 1360px;
+}
+
+.immagine {
+    background-color: white;
+    float: left;
+    position: relative;
+    left: 80px;
+    width: 845px;
+    height: 705px;
+}
+
+img {
+    width: 800px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+#sidebar {
+    float: left;
+    margin-left: 80px;
+    background-color: rgb(34, 34, 68) ;
+    color: white;
+    width: 400px;
+    text-align: center;
+    height: 705px;
+}
+
+.logo {
+    width: 100px;
+    margin-left: -40px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+#titolo2 {
+    color: lightblue;
+}
+
+hr {
+    width: 300px;
+    margin-top: 35px;
+    margin-bottom: 60px
+    
+}
+
+.contatti2 {
+    /* background-color: black; */
+    position: relative;
+    left: 70px;
+    top: 20px;
+    width: 300px;
+    text-align: left;
+}
+
+i {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: px;
+}
+
+#linea2 {
+    margin-top: 70px;
+}
