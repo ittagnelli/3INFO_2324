@@ -1,0 +1,92 @@
+body {
+    background-color: #88abc2;
+}
+
+.contenitore {
+    margin-top: 15px;
+    width: 100rem;
+    height: 5000px;
+    background-color: #88abc2;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.c1 {
+    margin-top: 0px;
+    border-top: 15px solid #88abc2;
+}
+
+.image {
+    float: left;
+    background-image: url(download.jpeg);
+    background-repeat: repeat;
+    height: calc(40% - 20px);
+    width: 30%;
+    border: 10px solid #8eb22e;
+    margin: 10px;
+}
+
+.text {
+    float: right;
+    width: 60%;
+    height: 40%;
+    background-color: #708c24;
+    margin: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+p {
+    font-weight: bold;
+    color: white;
+    margin-top: 0px;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+.post {
+    margin-top: 0px;
+    width: 95%;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #aad637;
+}
+
+.menu {
+    position: sticky;
+    top: 0px;
+    width: 101rem;
+    height: 50px;
+    background-color: #ff9c56;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    background-color: #ff4d79;
+    float: left;
+    position: relative;
+    top: 11.5%;
+    left: 2%;
+    width: 70px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.navigation {
+    background-color: #ff4d79;
+    float: right;
+    position: relative;
+    top: 11.5%;
+    right: 2%;
+    width: 115px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    text-transform: uppercase;
+    color: white;
+}

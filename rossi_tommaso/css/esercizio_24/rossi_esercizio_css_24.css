@@ -1,0 +1,16 @@
+.father {
+    width: 500px;
+    height: 200px;
+    background-image: url(istockphoto-1453838542-612x612.jpg);
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.child {
+    position: relative;
+    top: 20px;
+    left: 15px;
+    font-weight: bold;
+    color: yellow;
+}

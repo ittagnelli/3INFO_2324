@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+}
+div{
+    border: 1px solid black;
+    height: 50px;
+    aspect-ratio: 1;
+}
+
+div:nth-child(odd){
+    background-color: black;
+    text-decoration: white;
+}
+
+div:nth-child(even){
+    background-color: white;
+}
+
+.line{
+    float: left;
+}
