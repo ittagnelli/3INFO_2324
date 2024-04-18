@@ -1,0 +1,67 @@
+div{	
+    text-align: center;       
+    }
+        
+    div > div {
+            
+    width: 5rem;
+            
+    height: 5rem;
+            
+    float: none;
+            
+    border: 1px solid;
+            
+    line-height: 5rem;
+            
+    }
+            
+    
+            
+    .riga{
+            
+    float: left;
+            
+    }
+            
+    
+            
+    div:nth-child(even) > div:nth-child(odd) {
+            
+    background-color: white;
+            
+    
+            
+    }
+            
+    
+            
+    div:nth-child(odd) > div:nth-child(even) {
+            
+    background-color: white;
+            
+    
+            
+    }
+            
+    
+            
+    div:nth-child(odd) > div:nth-child(even) {
+            
+    background-color: black;
+            
+    color: white;
+            
+    
+            
+    }
+            
+    
+            
+    div:nth-child(even) > div:nth-child(odd) {
+            
+    background-color: black;
+            
+    color: white;
+            
+    }
