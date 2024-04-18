@@ -1,0 +1,40 @@
+#header {
+    background-color: orange;
+    height: 50px;
+    width: 900px;
+}
+
+#left{
+    background-color: lightsalmon;
+    height: 300px;
+    width: 300px;
+    float: left;    
+}
+
+#right{
+    background-color: lightseagreen;
+    height: 300px;
+    width: 300px;
+    float: left;    
+}
+
+#center{
+    background-color: darkorchid;
+    height: 300px;
+    width: 300px;
+    float: left;    
+}
+
+#footer {
+    background-color: green;
+    height: 50px;
+    width: 900px;
+    clear: both;
+    float: bottom;
+}
+
+#container  {
+    border: 10px solid lightblue;
+    height: 400px;
+    width: 900px;
+}
