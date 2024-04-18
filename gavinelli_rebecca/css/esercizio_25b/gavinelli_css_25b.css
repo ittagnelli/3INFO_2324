@@ -1,0 +1,46 @@
+.contenitore{
+    width: 800px;
+    height: 370px;
+    background-color: rgb(224, 234, 238);
+    padding: 1rem; 
+}
+
+.testo{
+   
+    float: left;
+    color: white;
+    padding-top: 20px;
+}
+
+.header {
+    background-color: rgb(243, 146, 67);
+    width: 100%;
+    height: 60px;
+}
+
+.footer {
+    background-color: rgb(152, 202, 59);
+    height: 60px;
+    clear: both;
+}
+
+.centercontent{
+    width: 33.3%;
+    height: 250px;
+    float: left;
+    background-color: rgb(113, 182, 223);
+}
+
+.leftcontent{
+    width: 33.3%;
+    height: 250px;
+    float: left;
+    background-color: rgb(218, 161, 87);
+}
+
+.rightcontent{
+    width: 33.3%;
+    height: 250px;
+    float: left;
+    background-color: rgb(39, 81, 121);
+}
