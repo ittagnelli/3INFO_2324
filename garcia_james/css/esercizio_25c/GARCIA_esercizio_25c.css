@@ -1,0 +1,61 @@
+div{
+    border: 0.5px;
+    border: solid black;
+    
+}
+#container{
+  border: 0px;
+  height: 900px;
+}
+#ricerca{
+    background-color: rgb(219, 68, 55);
+    height: 10%;
+    
+    
+}
+#logo{
+    float: left;
+    
+    padding: 10px;
+    height: 74%;
+    margin: 0px;
+    line-height: 75px;
+    background-color: deeppink;
+}
+#nav{
+    float: right;
+    padding: 10px;
+    line-height: 75px;
+    margin: 0px;
+    height: 74%;
+    background-color: brown;
+}
+.cont{
+    background: lightseagreen;
+}
+.verde{
+    background-color: greenyellow;
+    height: 300px;
+    width: 100%;
+    padding: 20px;
+    color: black;
+    float: left;
+}
+.scritta{
+    float: right;
+    color: white;
+    line-height: 40px;
+    width: 500px;
+    background-color: green;
+    padding-bottom: 0px;
+}
+.img{
+    background-image: url(depositphotos_2759337-stock-photo-interior-of-shopping.webp);
+    border: 1px;
+    height: 100px;
+    background-color: green;
+    width: 340px;
+    line-height: 20px;
+    
+    padding: 20px;
+}
