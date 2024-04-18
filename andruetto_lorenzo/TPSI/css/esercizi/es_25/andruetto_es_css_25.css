@@ -1,0 +1,15 @@
+.container{
+    position: relative;
+}
+
+p{
+    color: white;
+    position: absolute;
+    bottom: 50px;
+    font-size: 50px;
+}
+
+img{
+    width: 20%;
+    height: 20%;
+}

@@ -1,0 +1,41 @@
+.container{
+    border: 10px solid lightblue;
+    width: 1000px;
+    text-transform: uppercase;
+    height: calc(50px + 250px + 50px);
+}
+
+.header{
+    width: 1000px;
+    height: 50px;
+    background-color: orangered;
+    color: white;
+    line-height: 50px;
+}
+
+.sidebar{
+    width: 300px;
+    height: 250px;
+    background-color: orange;
+    color: white;
+    float: left;
+    line-height: 250px;
+}
+
+.main-content{
+    width: 700px;
+    float: right;
+    height: 250px;
+    background-color: rgb(99, 99, 250);
+    color: white;
+    line-height: 250px;
+}
+
+.footer{
+    clear: both;
+    width: 1000px;
+    height: 50px;
+    background-color: lightgreen;
+    color: white;
+    line-height: 50px;
+}
