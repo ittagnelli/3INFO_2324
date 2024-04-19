@@ -1,0 +1,28 @@
+.conteiner {
+float: left;
+color: white;
+}
+#h {
+background-color: sandybrown;
+width: 500px;
+height: 50px;
+clear: both;
+}
+#s {
+background-color: darkgoldenrod;  
+width: 100px;
+height: 150px;
+float: left;  
+}
+#m {
+background-color: cyan;
+width: 400px;
+height: 150px;
+float: left;    
+}
+#f {
+background-color: green;
+width: 500px;
+height: 50px;
+clear: both;    
+}

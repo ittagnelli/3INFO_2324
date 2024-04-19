@@ -1,0 +1,30 @@
+.conteiner {
+    border: 1px solid black;
+    /* background-color: cyan; */
+    width: 70%;
+    height: 98vh;
+    margin: auto;
+}
+
+#img {
+    border: 1px solid black;
+    float: left;
+    width: 60%;
+    height: calc(98vh - 2rem);
+    padding: 1rem;
+}
+
+#immagine {
+    border: 1px solid red;
+    overflow: hidden;
+    height: calc(98vh - 2rem);
+}
+
+#info {
+    border: 1px solid blue;
+    float: right;
+    width: 35%;
+    height: 98vh;
+    text-align: center;    
+}
+   
