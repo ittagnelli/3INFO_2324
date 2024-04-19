@@ -1,14 +1,14 @@
 img{
-  width: 150px;
-  border: 1px solid;
-}
-
-.description {
-  float: left;
-  border: 1px solid;
-}
-
-.container {
-  border: 1px solid;
-  float: left;
-}
+    width: 150px;
+    border: 1px solid;
+  }
+  
+  .description {
+    float: left;
+    border: 1px solid;
+  }
+  
+  .container {
+    border: 20px solid aquamarine;
+    float: left;
+  }
