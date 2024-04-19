@@ -1,0 +1,72 @@
+.contenitore {
+    width: 1000px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FF6F28;
+}
+
+.title {
+    height: 33%;
+    text-align: center;
+    line-height: 165px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.cont-box {
+    width: 100%;
+    height: 60%;
+    margin-left: 8%;
+}
+
+.box {
+    float: left;
+    width: 25%;
+    height: 100%;
+    margin-left: 2%;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.goal {
+    padding-top: 7%;
+    padding-left: 7%;
+    color: #FF6F28;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.box-title {
+    margin-top: 10%;
+}
+
+.box-title div {
+    font-size: 17px;
+    font-weight: bold;
+    padding-left: 5%;
+}
+
+.box-desc {
+    margin-top: 5%;
+}
+
+.box-desc div {
+    padding-left: 5%;
+}
+
+.more {
+    width: 90%;
+    height: 15%;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height: 45px;
+    color: #FF6F28;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #F6E7DE;
+}
