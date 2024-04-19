@@ -1,0 +1,45 @@
+div {
+float: left;
+text-align: center;
+border: 2px solid gray;
+}
+#parent {
+    border: 5px solid rgb(65, 141, 255);
+    width: 540px;
+    padding: 10px;
+  }
+  #img1 {
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid gray;
+  }
+  #img2 {
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid gray;
+  }
+  #img3 {
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid gray;
+  }
+  #img4 {
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid gray;
+  }
+  #img5 {
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid gray;
+  }
