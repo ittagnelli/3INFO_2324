@@ -1,0 +1,57 @@
+.grandezza {
+    width: 560px;
+    height: 150px;
+    float: left;
+    padding:10px;
+}
+.gls {
+        color:white;
+        background-color: orange;
+        height: 20px;
+        width: 520px;
+        float:left;
+        top:50px;
+        padding:10px;
+}
+.p
+{
+    line-height: 100px;
+    color:white;
+    float:left;
+    width:160px;
+    height:100px;
+    background-color:brown;
+    padding: 10px;
+    text-align: center;
+}
+.l
+{
+    line-height: 100px;
+    text-align: center;
+    color:white;
+    float:left;
+    width: 160px;
+    height:100px;
+    background-color:aquamarine;
+    padding: 10px;
+}
+.q
+{
+    line-height: 100px;
+    text-align: center;
+    color:white;
+    float:left;
+    width: 160px;
+    height:100px;
+    background-color:blue;
+    padding: 10px;
+}
+.h {
+    color:white;
+    background-color: greenyellow;
+    height: 20px;
+    width: 520px;
+    float:left;
+    bottom:50px;
+    padding:10px;
+}
