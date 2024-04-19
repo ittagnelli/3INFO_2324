@@ -1,0 +1,54 @@
+.contenitore {
+    border: 0px solid black;
+    width: 70vw;
+    margin: auto;
+    background-color: rgb(109, 198, 250);
+    padding: 1rem;
+}
+
+.testo {
+    color: white;
+    font-weight: bold;
+    padding-left: 1rem;
+
+}
+.header {
+    border: 0px solid black;
+    height: 50px;
+    background-color: #ff9c56;     
+    line-height: 50px;
+}
+
+.lefr content {
+    border: 0px solid black;
+    float: left;
+    height: 400px;
+    width: 30%;
+    background-color: #ffbe56;
+    line-height: 400px;
+    
+}
+
+.center content {
+    border: 0px solid black;
+    float: left;
+    height: 400px;
+    width: calc(70% - 2rem);
+    background-color: #88abc2;
+    line-height: 400px;
+}
+
+.right content {
+    border: 0px solid black;
+    height: 50px;
+    background-color: #aad637;
+    line-height: 50px;
+    clear: both;
+}
+.footer {
+    border: 0px solid black;
+    height: 50px;
+    background-color: #aad637;
+    line-height: 50px;
+    clear: both;
+}
