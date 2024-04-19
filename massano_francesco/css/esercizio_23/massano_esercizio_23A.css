@@ -1,0 +1,13 @@
+.parent{
+    border: 20px, solid,lightblue;
+}
+
+.image{
+    border: 1px;
+    width: 150px;
+}
+
+.child{
+    border: 1px;
+
+}

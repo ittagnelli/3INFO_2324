@@ -1,0 +1,50 @@
+#center {
+    background-color: blue;
+    border: 1px solid blue;
+    height: 300px;
+    width: 266px;   
+    float: left;
+}
+
+#left{
+    background-color: yellow;
+    border: 1px solid yellow;
+    height: 300px;
+    width:  265px;
+    float: left;    
+}
+
+#right {
+    background-color: red;
+    border: 1px solid red;
+    height: 300px;
+    width: 266.6px;   
+    float: right;
+}
+
+
+/****************************   NON TOCCARE   ****************************/
+
+#header {
+    background-color: orange;
+    border: 1px solid orange;
+    height: 50px;
+    width: 800xp;
+    clear: both;
+}
+
+#footer {
+    background-color: green;
+    border: 1px solid green;
+    height: 50px;
+    width: 800xp; 
+    position: relative;
+    clear: both;
+}
+
+#container  {
+    background-color: whitesmoke;
+    border: 10px solid whitesmoke;
+    height: 406px;
+    width: 804px;
+}

@@ -1,0 +1,21 @@
+.navbar{
+    background-color: lightsalmon;
+    padding: 20px;
+    height: 50px;
+    position: sticky;
+    line-height: 70px;
+}
+
+.logo{
+background-color: fuchsia;
+height: 30px;
+width: 70px;
+float: left;
+}
+
+.navigation{
+    background-color: orangered;
+    height: 30px;
+    width: 70px;
+    float: right;
+}

@@ -1,0 +1,10 @@
+#text {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+
+#picture {
+    height: 150px;
+    width: 400px;
+}

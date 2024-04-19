@@ -1,0 +1,10 @@
+.menu li {
+    display: inline;
+    text-align: center;
+    background-color: black;
+    color: white;
+    visibility: visible;
+    border: 1px solid;
+    margin: 0;
+    padding: 5px;
+  }

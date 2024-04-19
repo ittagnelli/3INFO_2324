@@ -1,0 +1,12 @@
+#text {
+    position: absolute;
+    top: 75px;
+    left: 250px;
+    color: red;
+    
+}
+
+#picture {
+    height: 150px;
+    width: 400px;
+}

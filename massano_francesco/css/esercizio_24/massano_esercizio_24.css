@@ -1,0 +1,19 @@
+
+
+.parent {
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('th.jpg');
+    border: 3px solid black;
+    width: 400px;
+    height: 200px;
+}
+
+.child {
+    font-weight: bold;
+    color: yellow;
+    position: relative;
+    font-size: 30px;
+    top: 20px;
+    left: 20px;
+}

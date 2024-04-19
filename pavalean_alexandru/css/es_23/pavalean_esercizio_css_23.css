@@ -1,0 +1,14 @@
+#parent {
+border: 3px solid green;
+width: 150px;
+height: 150px;
+padding: 10px;
+}
+#img {
+float: left;
+width: 150px;
+height: 150px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
