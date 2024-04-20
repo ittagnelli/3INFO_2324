@@ -1,0 +1,52 @@
+.container{
+    background-color:  #f25f16;
+    width: calc(60% - 40px);
+    min-height: 600px;
+    color: #ffffff;
+    padding: 40px;
+}
+
+.title{
+    margin-left: calc(50% - 80px);
+    font-weight: bold;
+    font: 40px bold;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+
+.item{
+    float: left;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 10px;
+    width: calc(30% - 20px);
+    height: 250px;
+    margin-right: 20px;
+    padding: 20px 0 20px 20px;
+}
+
+.title-item{
+    color: rgb(255, 102, 0);
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.obiettivo{color: #000000;
+font-weight: bold;
+margin-bottom: 10px;
+}
+
+.sotto-obiettivo{
+    font-size: 20px;
+margin-bottom: 120px;
+}
+
+.button{
+    color: rgb(255, 102, 0);
+    background-color: bisque;
+    width: 140px;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 70px 10px 100px;
+    margin-bottom: 20px;
+}
