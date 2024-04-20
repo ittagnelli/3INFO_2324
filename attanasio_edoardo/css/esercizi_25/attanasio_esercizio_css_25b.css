@@ -1,0 +1,32 @@
+.content-viewport{
+    border: 20px solid lightblue;
+    margin: 10px 30px 20px 30px;
+}
+.content-viewport > div{
+    padding: 20px;
+    color: white;
+} 
+.navbar{
+    background-color: red;
+}
+.left-content{
+    background-color: orange;
+}
+.center-content{
+    background-color: rgb(73 , 158 , 189);
+}
+.left-content,.center-content,.right-content{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: calc(31% + 2px);
+    float: left;
+    line-height: 400px;
+} 
+.right-content{
+    background-color: rgb(2, 45, 61);
+} 
+.footer{
+    background-color: green;
+    clear: both;
+}
