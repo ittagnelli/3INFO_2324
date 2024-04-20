@@ -1,0 +1,48 @@
+.cont{
+    height: 700px;
+    width: 900px;
+}
+
+.header{
+    width:900px;
+    height: 50px;
+    background-color: darkorange;
+    color: white;
+    line-height:60px;
+}
+.left{
+    width: 300px;
+    height: 250px;
+    float: left;
+    background-color: orange;
+    color: white;
+    line-height: 200px;
+    text-align: center;
+}
+.center{
+    width: 300px;
+    height: 250px;
+    float: left;
+    background-color: darkcyan;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+}
+.right{
+    width: 300px;
+    height: 250px;
+    float: right;
+    background-color: darkslategray;
+    color: white;
+    line-height: 200px;
+    text-align: center;
+}
+.footer{
+    width:900px;
+    height: 50px;
+    background-color: greenyellow;
+    color: white;
+    line-height:60px;
+    
+ clear: both;
+}
