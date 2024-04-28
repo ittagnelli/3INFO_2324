@@ -1,0 +1,50 @@
+.contenitore {
+    width: 2000px;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aqua;
+}
+
+.contenitore div {
+    position: relative;
+    float: left;
+    top: 10px;
+    left: 135px;
+}
+
+.img {
+    width: 60%;
+    height: 95%;
+    background-image: url(https://www.kalamaki-travel.gr/wp-content/uploads/2018/05/talea-beach-hotel00032-1300x900-1.jpg);
+    background-repeat: no-repeat;
+    border: 15px solid white;
+}
+
+.info-tab {
+    width: 27.5%;
+    height: calc(95% + 30px);
+    background-color: darkblue;
+}
+
+.logo {
+    width: 30%;
+    aspect-ratio: 1;
+    padding-top: 7%;
+    padding-left: 10%;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    border: 10px solid aqua;
+    border-radius: 10px;
+}
+
+.name {
+    width: 100%;
+    height: 50px;
+    padding-top: calc(42% + 20px);
+    text-align: center;
+    border: 10px solid black;
+}
