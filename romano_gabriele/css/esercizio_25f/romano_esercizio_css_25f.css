@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: row;
     width: 1500px;
-    height: 750px;
+    height: 850px;
     margin-left: auto;
     margin-right: auto;
     border: 10px solid lightgray;
@@ -58,7 +58,7 @@ img {
     width: 35%;
     height: 13%;
     text-align: center;
-    line-height: 40px;
+    line-height: 50px;
     color: white;
     font-size: 13px;
     font-weight: bold;
@@ -93,41 +93,32 @@ hr {
     width: 37%;
     height: 11%;
     text-align: center;
-    line-height: 49.5px;
+    line-height: 59.5px;
     font-size: 17px;
     font-weight: bold;
     margin-right: 8.5%;
     border: 1px solid black;
 }
 
+.social {
+    margin-top: 10%;
+    margin-left: 57.5%;
+}
+
 .fa:hover {
     opacity: 0.9;
 }
 
-.fa-facebook {
-    background: #007bb5;
-    color: white;
-}
-
-.fa-twitter {
-    background: #cb2027;
-    color: white;
+.fa {
+    font-size: 32px;
+    text-decoration: none;
+    color: black;
+    margin-right: 7%;
 }
 
 .fa-linkedin {
-    background: #ff5700;
-    color: white;
-}
-
-.fa-instagram {
-    background: #ff5700;
-    color: white;
-}
-
-.fa {
-    padding: 20px;
-    font-size: 40px;
-    width: 60px;
-    text-decoration: none;
-    margin: 5px 80px;
+    width: 10%;
+    background: black;
+    color: #B4D7FF;
+    text-align: center;
 }
