@@ -1,0 +1,72 @@
+#top{
+    position: sticky;
+    height: 100px;
+    background-color: salmon;
+    padding-left: 1rem;    
+    padding-right: 1rem;
+}
+
+.logo{  
+    float: left;
+    height: 30px;
+    width: 70px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 35px;
+    background-color: palevioletred;
+}
+
+.navigation{
+    float: right;
+    height: 30px;
+    width: 120px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 35px;
+    background-color: orange;
+}
+
+.cont{
+    clear: both;
+    float: bottom;
+    background-color: lightseagreen;
+    padding: 20px;
+    height: auto;
+}
+
+.post{
+    clear: both;
+    float: bottom;
+    height: 250px;
+    background-color: lightgreen;
+    padding-top: 5px;
+}
+
+.spazio{
+    float: left;
+    width: 75px;
+    height: 100px;
+}
+
+.img{
+    float: left; 
+    border: 15px solid darkolivegreen;
+}
+
+.text{
+    float: left;
+    padding-left: 10px;
+    width: 1350px;
+    background-color: darkgreen;
+}
+
+img{
+    width: 350px;
+    height: 100px;
+}
+
+.title{
+    float: top;
+    padding-left: 10px;
+    color: white;
+}

@@ -1,0 +1,12 @@
+#parent {
+    width: 400px;
+    height: 100px;
+  }
+  
+  #child {
+    width: 200px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: lightgreen;
+  }

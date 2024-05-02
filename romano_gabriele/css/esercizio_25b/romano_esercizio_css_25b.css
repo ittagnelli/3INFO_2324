@@ -1,0 +1,47 @@
+.contenitore {
+    width: 1000px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid lightblue;
+}
+
+.contenitore div {
+    color: white;
+    font-weight: bold;
+}
+
+.dim-hf {
+    height: 70px;
+    line-height: 70px;
+    padding-left: 10px;
+}
+
+.dim-c {
+    float: left;
+    width: 33.33%;
+    height: 360px;
+    text-align: center;
+    line-height: 360px;
+}
+
+.header {
+    background-color: orange;
+}
+
+.lc {
+    background-color: yellow;
+}
+
+.cc {
+    background-color: lightblue;
+}
+
+.rc {
+    background-color: blue;
+}
+
+.footer {
+    clear: both;
+    background-color: green;
+}

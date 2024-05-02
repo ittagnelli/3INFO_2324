@@ -1,6 +1,8 @@
+
 .gallery {
+    border: 2px solid black;
     margin: 0 auto;
-    border: 20px solid #add8e6; 
+    border: 20px solid #6657bb; 
     display: table;
     border-spacing: 5px;
 }

@@ -1,0 +1,150 @@
+body {
+    background-color: aqua;
+}
+
+.contenitore {
+    position: relative;
+    left: 2.5%;
+    right: 2.5%;
+    width: 95%;
+    height: 900px;
+}
+
+.image {
+    width: calc(70% - 20px);
+    height: calc(100% - 20px);
+    float: left;
+    position: relative;
+    border: 10px solid white;
+}
+
+.image > img {
+    width: 100%;
+    height: 100%;
+}
+
+.info {
+    width: 30%;
+    height: 100%;
+    background-color: #002e4a;
+    float: left;
+}
+
+.info > img {
+    width: 20%;
+    aspect-ratio: 1;
+    position: relative;
+    top: 7%;
+    left: calc(40% - 10px);
+    right: calc(40% - 10px);
+    border: 10px solid aqua;
+    border-radius: 10px;
+}
+
+.info > h1 {
+    color: white;
+    position: relative;
+    text-align: center;
+    width: 39%;
+    left: 30.5%;
+    right: 30.5%;
+    top: 10%;
+    text-transform: uppercase;
+}
+
+.info > h2 {
+    color: aqua;
+    position: relative;
+    text-align: center;
+    width: 39%;
+    line-height: 30px;
+    left: 30.5%;
+    right: 30.5%;
+    top: 13%;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.info > hr {
+    width: 75%;
+    position: relative;
+    top: 19%;
+    height: 2px;
+    background-color: white;
+    border: 0.5px solid white;
+    border-radius: 4px;
+}
+
+.info > h3 {
+    color: white;
+    position: relative;
+    text-align: center;
+    width: 39%;
+    line-height: 30px;
+    left: 30.5%;
+    right: 30.5%;
+    top: 24%;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style-type: none;
+    position: relative;
+    top: 23%;
+    left: 12%;
+    width: 70%;
+    color: white;
+}
+
+li {
+    line-height: 50px;
+    font-size: larger;
+}
+
+.home:before {
+    content: 'home';
+    font-family: 'material symbols outlined';
+    color: aqua;
+    vertical-align: -10%;
+    padding-right: 30px;
+}
+
+.mail:before {
+    content: 'mail';
+    font-family: 'material symbols outlined';
+    color: aqua;
+    vertical-align: -10%;
+    padding-right: 30px;
+}
+
+.phone:before {
+    content: 'phone';
+    font-family: 'material symbols outlined';
+    color: aqua;
+    vertical-align: -10%;
+    padding-right: 30px;
+}
+
+.tag::before {
+    content: 'tag';
+    font-family: 'material symbols outlined';
+    color: aqua;
+    vertical-align: -10%;
+    padding-right: 30px;
+}
+
+span {
+    height: 2px;
+    position: relative;
+    top: 23%;
+}
+
+span > hr {
+    width: 65%;
+    height: 1px;
+    background-color: white;
+    border: 0.5px solid white;
+    border-radius: 4px;
+    position: relative;
+}

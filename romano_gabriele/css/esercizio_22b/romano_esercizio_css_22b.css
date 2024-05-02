@@ -1,0 +1,26 @@
+.contenitore {
+    width: 1000px;
+    height: 1000px;
+    justify-content: space-between;
+}
+
+.contenitore > div {
+    float: left;
+    width: 200px;
+    aspect-ratio: 1;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.contenitore > div:nth-child(odd) {
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.contenitore > div:nth-child(even) {
+    text-align: justify;
+    width: 115px;
+}

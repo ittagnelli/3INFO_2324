@@ -1,0 +1,53 @@
+.container{
+    border: 10px solid lightblue;
+    width: 999px;
+    text-transform: uppercase;
+    height: calc(50px + 250px + 50px);
+}
+
+.header{
+    width: 999px;
+    height: 50px;
+    background-color: orangered;
+    color: white;
+    line-height: 50px;
+}
+
+.left-content{
+    width: 333px;
+    height: 250px;
+    background-color: orange;
+    color: white;
+    float: left;
+    line-height: 250px;
+    text-align: center;
+}
+
+.center-content{
+    width: 333px;
+    float: left;
+    height: 250px;
+    background-color: rgb(99, 99, 250);
+    color: white;
+    line-height: 250px;
+    text-align: center;
+}
+
+.right-content{
+    width: 333px;
+    float: right;
+    height: 250px;
+    background-color: rgb(16, 16, 68);
+    line-height: 250px;
+    text-align: center;
+    color: white;
+}
+
+.footer{
+    clear: both;
+    width: 999px;
+    height: 50px;
+    background-color: lightgreen;
+    color: white;
+    line-height: 50px;
+}

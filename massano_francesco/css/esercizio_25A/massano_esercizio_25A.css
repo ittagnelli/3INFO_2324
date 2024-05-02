@@ -1,0 +1,58 @@
+.parent {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    border: 8px solid aqua;
+    width: 1500px;
+    height: 500px;
+}
+
+.header {
+    padding-left: 20px;
+    line-height: 50px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: orange;
+    width: calc(1500px-20px);
+    height: 50px;
+
+}
+
+.sidebar {
+    padding-left: 20px;
+    float: left;
+    line-height: 400px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: yellow;
+    width: calc(40% - 20px);
+    height: 400px;
+
+}
+
+.maincontent {
+    padding-left: 20px;
+    float: left;
+    line-height: 400px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: blue;
+    width: calc(60% - 20px);
+    height: 400px;
+}
+
+.footer {
+    width: calc(1500px-20px);
+    padding-left: 20px;
+    line-height: 50px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: green;
+    clear: both;
+    
+}

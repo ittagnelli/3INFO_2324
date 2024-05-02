@@ -1,0 +1,46 @@
+
+#container{
+    background-color: rgb(218, 220, 224);
+    height: 142px;
+    width: 510px;
+    padding: 10px;
+}
+#head{
+    padding-left: 20px;
+    background-color: rgb(232, 113, 10);
+    width: 474px;
+    
+}
+#main{
+    float: left;
+    padding-left: 20px;
+    line-height: 94px;
+    background-color: lightblue;
+    width: 150.66px;
+    height: 94px;
+}
+#side{
+    background-color: rgb(243, 179, 0);
+    padding-left: 20px;
+    height: 94px;
+    width: 140.66px;
+    float: left;
+    line-height: 94px;
+    
+}
+#foot{
+    background-color: lightgreen;
+    float: left;
+    padding-left: 20px;
+    width: 474px;
+    
+}
+#right{
+    background-color: navy;
+    padding-left: 20px;
+    height: 94px;
+    width: 28%;
+    float: left;
+    line-height: 94px;
+    
+}

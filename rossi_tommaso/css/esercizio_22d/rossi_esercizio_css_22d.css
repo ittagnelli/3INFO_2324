@@ -1,0 +1,22 @@
+.contenitore {
+    width: 500px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.line-1 {
+    float: left;
+}
+
+.quadrato {
+    width: 180px;
+    aspect-ratio: 1;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    background-color: purple;
+}

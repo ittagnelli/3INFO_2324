@@ -1,0 +1,57 @@
+body {
+    padding-top: calc(50vh - 208px);
+}
+
+.riga {
+    border: 20px solid lightblue ;
+    height: 208px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5px;
+    padding-left: 5px;  
+    padding-top: 5px;
+    width: 905px;    
+    /* margin-left: auto;  */
+    /* margin-right: auto; */
+    margin: auto;
+}
+
+.img {
+    border: 1px solid;    
+}
+
+.didascalia { 
+    border-top: 1px solid;    
+}
+
+.div2 > div {
+    float: left;
+    width: 175px;
+}
+
+.div3 {
+    float: left;
+    width: 175px;
+    padding-left: 5px;    
+}
+
+.div4 {    
+    width: 175px;
+    padding-left: 5px;
+}
+
+
+.div5 {    
+    width: 175px;
+    padding-left: 5px;
+}
+
+.div6 {    
+    width: 175px;
+    padding-left: 5px;
+}
+
+
+img {   
+    width: 150px;    
+}

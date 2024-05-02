@@ -1,0 +1,56 @@
+.cont{
+    border: 1px solid black;
+    width: 60rem;
+    height: 31.8rem + 31.3rem;
+}
+
+#picture{
+    border: 1px solid blue;
+    /* float: left; */
+    height: 18.8rem;
+    width: 31.3rem;
+}
+
+/* #aboutme{
+    border: 1px solid green;
+    height: 20rem;
+    width: 10rem;
+} */
+
+#contacts{
+    border: 1px solid red;
+    /* float:left; */
+    height: 30rem;
+    width: 31.3rem;
+}
+
+#nome{
+    padding-top: 3rem;
+    font-weight: 700;
+    font-size: 40px;
+    font-family: sans-serif, serif;
+    text-align: justify;
+    padding-left: 8rem;
+}
+
+#lavoro{
+    font-weight: 700;
+    font-family: cursive, sans-serif, serif;
+    padding-top: 3rem;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: justify;
+    padding-left: 8rem;
+}
+
+#email{
+    font-weight: 700;
+    font-family: sans-serif, serif;
+    padding-top: 3rem;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: justify;
+    padding-left: (18.8/2)rem;
+    background-color: black;
+    color: white;
+}
