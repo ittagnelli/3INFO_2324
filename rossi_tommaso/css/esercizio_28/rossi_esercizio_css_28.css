@@ -1,0 +1,23 @@
+.container {
+    position: fixed;
+    top: 20%;
+    left: 30%;
+    width: 40%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #67a7b7;
+    border-radius: 30px;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    width: 50%;
+    height: 10%;
+    color: white;
+    background-color: #3d5c83;
+}

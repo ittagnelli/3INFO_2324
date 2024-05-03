@@ -1,0 +1,30 @@
+.container {
+    position: fixed;
+    top: 20%;
+    left: 30%;
+    width: 55%;
+    height: 30%;
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 1px solid gray;
+    row-gap: 1%;
+}
+
+.item {
+    width: 30%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: x-large;
+    border: 3px solid #67a7b7;
+    border-radius: 10px;
+    background-color: #3d5c83;
+}
+
+.line1 {
+    width: 22%;
+}
