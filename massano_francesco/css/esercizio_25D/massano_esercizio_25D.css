@@ -1,0 +1,90 @@
+.body {
+    background-color: rgb(121, 219, 235);
+}
+
+.parent {
+    margin: auto;
+    width: 1500px;
+    height: 900px;
+
+}
+
+.div1 {
+    float: left;
+    border: 15px solid white;
+    width: calc(65% - 30px);
+    height: calc(100% - 30px);
+}
+
+.f01 {
+    width: 100%;
+    height: 100%;
+}
+
+.div2 {
+    float: left;
+    width: 35%;
+    height: 100%;
+    background-color: rgb(0, 46, 74);
+}
+
+.f1 {
+    width: 100px;
+    height: 100px;
+
+}
+
+.f0 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 40px;
+    left: 212px;
+    border: solid lightblue 3px;
+}
+
+.f2 {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-size: larger;
+    position: relative;
+    top: 80px;
+    left: 162px;
+}
+
+.f02 {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-size: larger;
+    position: relative;
+    top: 81px;
+    left: 162px;
+}
+
+.f3 {}
+
+.f03{
+    position: relative;
+    top: 180px;
+}
+
+.f4 {}
+
+.f5 {}
+
+.f6 {}
+
+.f7 {}
+
+.f8 {}
+
+.f9 {
+    position: relative;
+    bottom: 40px;
+}
