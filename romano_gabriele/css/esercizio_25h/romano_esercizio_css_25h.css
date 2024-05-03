@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.contenitore {
+    display: flex;
+    flex-direction: row;
+    width: 55%;
+    height: 700px;
+}
+
+.contenitore div {
+    color: darkolivegreen;
+}
+
+.left {
+    width: 30%;
+    text-align: left;
+    background-color: lime;
+}
+
+.left > div {
+    padding-left: 12%;
+}
+
+.right {
+    width: 75%;
+    height: 100%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.name {
+    padding-top: 17%;
+    margin-bottom: 3%;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.jobs {
+    width: 65%;
+    height: 15%;
+    font-size: 20px;
+}
+
+.info {
+    position: absolute;
+    width: 10%;
+    height: 5%;
+    top: 55%;
+    left: 53%;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 800px;
+    background-color: lime;
+}
