@@ -85,8 +85,9 @@
 }
 #hr{
     height: 2px;
+    float: left;
     background-color: black;
-    width: 90%;
+    width: 65%;
     margin-top: 10px;
     margin-left: 100px;
     float: left;
