@@ -1,0 +1,29 @@
+.content-viewport{
+    border: 20px solid lightblue;
+    margin: 10px 30px 20px 30px;
+}
+.content-viewport > div{
+    padding: 20px;
+    color: white;
+} 
+.navbar{
+    background-color: red;
+}
+.sidebar{
+    background-color: orange;
+    float:left;
+    width: 400px;
+    height: 400px;
+}
+.sidebar,.main-content{
+    line-height: 300px;
+} 
+.main-content{
+    background-color: rgb(73 , 158 , 189);
+    line-height: 300px;
+    height: 400px;
+} 
+.footer{
+    background-color: green;
+    clear: both;
+}

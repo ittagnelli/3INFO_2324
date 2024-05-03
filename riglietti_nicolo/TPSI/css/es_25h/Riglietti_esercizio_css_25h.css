@@ -1,0 +1,56 @@
+/* div {
+    border: 1px solid;
+}   */
+
+.container {
+    height: 750px;
+    width: 1750px;
+    padding: 30px;
+    font-family: "Roboto", sans-serif;  
+}
+
+#container-left {
+    height: 750px;
+    width: 450px;
+    float: left;
+    background-color: rgb(227,241,77);
+}
+
+#img {
+    height: 753px;
+    width: 1760px;
+    
+}
+
+img {
+    width: 1307px;
+}
+
+#title {
+    font-weight: bold;
+    text-align: left;
+    padding-top: 90px;
+    margin-left: 75px;
+    font-size: 60px;
+    line-height: 60px;
+    width: 300px;
+    height: 150px;
+}
+
+#works {
+    text-align: left;
+    width: 160px;
+    margin-left: 75px;
+}
+
+#button {
+    background-color: rgb(227,241,77);
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 15px;
+    position: relative;    
+    top: -80px ;
+    left: 1000px;
+}

@@ -1,0 +1,93 @@
+#container {
+    background-color: white;
+    border: 1px solid; 
+    height: 700px;
+    width: 1200px;
+    font-family: "Roboto", sans-serif;    
+}
+
+#container-left{
+    /* border: 1px solid; */
+    float: left;
+    height: 100%;
+    width: 420px;
+}
+
+#img {
+    border: 2px solid purple;
+    height: 241px;
+    width: 403.4px;
+}
+
+.name {
+    padding-top: 20px;
+    margin: 5px;
+    margin-left: 40px;
+    font-size: 40px;
+}
+
+#works {
+    margin-left: 40px;
+    margin-top: 60px;
+}
+
+#button1 {  
+    background-color: black;
+    color: white;  
+    margin-left: 90px;
+    margin-top: 140px;  
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    line-height: 40px;
+
+}
+
+#container-right{
+    /* border: 1px solid; */
+    float: left;
+    width: 792px;
+    height: 100%;
+    margin-left: -12px;
+    background-color: rgb(180,215,255);
+}
+
+#titolo {
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+#line {
+    background-color: black;
+    height: 2px;
+    width: 600px;
+    margin-left: 90px;
+    margin-bottom: 40px;
+}
+
+#about-me {
+    /* border: 1px solid; */
+    height: 200px;
+    width: 500px;
+    margin-left: 130px;
+    text-align: justify;
+}
+
+.button {
+    border: 1px solid; 
+    float: left;
+    margin-left: 170px;
+    margin-top: 0px;
+    height: 30px;
+    width: 130px;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+#social {
+    margin-top: 180px;
+    margin-left: 600px;
+    
+}

@@ -1,0 +1,45 @@
+.conteiner{
+   border: 0px solid black;
+   width: 100%;
+   height: 97vh; 
+   background-color: #FF6F28;
+  
+}
+#titolo {
+    border: 0px solid blue;
+    text-align: center;
+    height: 2rem;
+    color: white;
+}
+.obbiettivi{
+    float: left;
+    border: solid 0px red;
+    background-color: white;
+    height: 20vh;
+    width: 20%;
+    margin: 2rem;
+  
+}
+.tit {
+    border: solid 0px blue;
+    color: #FF7129;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+.testo{
+    border: solid 0px black;
+    margin: 1rem;
+}
+.tp {
+    border: 0px solid black;
+    margin: 1rem;
+}
+.bottone {
+    border: 0px solid black;
+    background-color: #F6E7DE;
+    width: 150px;
+    margin: 1rem;
+    text-align: center;
+    margin: auto;
+    color: #FF723A;
+}

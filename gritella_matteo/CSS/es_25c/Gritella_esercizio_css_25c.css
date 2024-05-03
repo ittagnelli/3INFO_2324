@@ -1,0 +1,80 @@
+.conteiner {
+    border: 0px solid black;
+    background-color: #88ABC2;
+    margin: auto;
+    width: 80%;
+    height: 97vh;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.header {
+    border: 0px solid red;
+    background-color: #FF9C56;
+    width: 100%;
+    height: 80px;
+}
+
+.post {
+    border: 0px solid black;
+    background-color: #AAD637;
+    margin: auto;
+    width: 95%;
+    height: 200px;
+    margin-top: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.titolo {
+    border: 0px solid black;
+    font-size: 30px;
+
+}
+
+.foto {
+    float: left;
+    border: 0px solid black;
+    background-color: #8EB22E;
+    width: 20%;
+    height: 100px;
+    margin-top: 1rem;
+    padding: 0.5rem;
+}
+
+.testo {
+    float: left;
+    border: 0px solid black;
+    background-color: #708C24;
+    width: calc(80% - 6rem);
+    height: calc(100px);
+    margin-top: 1rem;
+    margin-left: 3rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+#logo {
+    border: 0px solid blue;
+    background-color: #FF4D79;
+    float: left;  
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#navigation {
+    border: 0px solid blue;
+    background-color: #E85F43;
+    float: right;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 20px;
+    margin-right: 20px;
+}

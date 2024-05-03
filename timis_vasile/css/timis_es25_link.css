@@ -1,0 +1,17 @@
+.img {
+    width: 200px;
+    height: 200px;
+    border: 3px ;
+    position: relative;
+}
+
+.child   {
+    width: 100px;
+    color: white;
+    position: absolute;
+    bottom: 30px;
+    top: 30px;
+    right: 60px;
+    left:60px;
+    backdrop-filter: blur(2px) ;
+}  
