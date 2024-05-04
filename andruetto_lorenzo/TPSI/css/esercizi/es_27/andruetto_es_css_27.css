@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    align-content: stretch;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 300px;
+    width: 600px;
+}
+
+.item{
+    color: whitesmoke;
+    padding: 10px;
+    background-color: royalblue;
+    border: 1px solid aqua;
+    border-radius: 5px;
+    width: 200px;
+}
