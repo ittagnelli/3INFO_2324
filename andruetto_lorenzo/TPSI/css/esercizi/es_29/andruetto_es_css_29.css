@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 300px;
+    height: 130px;
+    flex-flow: row wrap;
+    align-content: space-between;
+    justify-content: space-between; 
+    padding: 10px;
+}
+
+.item{
+    padding: 10px;
+    color: whitesmoke;
+    background-color: royalblue;
+    border: 1px solid aqua;
+    border-radius: 5px;
+}
