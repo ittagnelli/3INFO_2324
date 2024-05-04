@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.contenitore {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+    height: 200px;
+    border: 1px solid #D1D1D1;
+    border-radius: 5px;
+}
+
+.contenitore div {
+    width: 12%;
+    height: 30%;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    border: 5px solid #67A7B7;
+    border-radius: 10px;
+    background-color: #476B98;
+}
