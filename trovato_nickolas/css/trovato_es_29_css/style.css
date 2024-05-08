@@ -1,0 +1,20 @@
+.content{
+    display: flex;
+    justify-content: center;align-content: center;
+    flex-wrap: wrap;
+    width: 800px;
+    
+    padding: 10px;
+    border: solid cyan 1px;
+}
+.item2 {flex-shrink: 1; color: aliceblue;}
+
+.item{
+    flex-grow: 1;
+    flex-shrink: 2;
+    flex-basis: 10px;
+    border-radius: 10px;
+    background-color: blue;
+    padding: 50px;
+    text-align: center;
+}
