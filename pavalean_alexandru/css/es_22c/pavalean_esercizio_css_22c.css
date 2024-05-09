@@ -1,0 +1,25 @@
+body {
+    background-color: white;
+    color: grey;
+    padding: 1em;
+    margin: 0;
+}
+
+.float {
+    margin: 15px;
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    background-color: lightblue;
+    padding: 1em;
+    float: right;
+}
+
+.box {
+   background-color: purple;
+   padding: 10px;
+   height: 200px;
+   width: 550px;
+   color: white;
+   box-sizing: 300px; 
+}

@@ -1,0 +1,21 @@
+
+.parent{
+    width: 400px;
+    height: 150px;
+     background-image: url(pexels-vlad-alexandru-popa-1402787.jpg);
+}
+
+
+.child {
+    
+    width: 200px;
+    color:  white;
+    
+    float: left;
+    position: relative;
+    left: 50px;
+    top: 0px;
+  }
+  
+ 
+ 

@@ -1,0 +1,46 @@
+h1,h1:nth-child(1){
+    font-family: Sofia, sans-serif;
+    color: blue;
+}
+h1:nth-child(2){
+    font-family: Audiowide, sans-serif;
+}
+h1:nth-child(3){
+    font-family: 'Barriecito', cursive;
+}
+
+span {
+    position: absolute;
+    left: 50%;
+}
+.cerchio {
+    list-style-type: circle;
+}
+.square {
+    list-style-type: square;
+}
+.roman {
+    list-style-type: upper-roman;
+}
+.icone  > li:before {
+    content: 'done_outline';
+    font-family: 'Material Icons';
+    color: red;
+}
+.t_rosso{
+    color: red;
+}
+
+.t_verde{
+    color: green;
+}
+
+.p_grigio{
+    color: gray;
+}
+
+.p_arancione{
+    color: orange;
+}
+
+

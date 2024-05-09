@@ -1,0 +1,21 @@
+.container{
+    width: 400px;
+    height: 150px;
+    padding: 20px;
+    background-color: purple;
+}
+#left{
+    float: left;
+    color: white;
+    width: 260px;
+    height: 100px;
+}
+#right{
+    border-radius: 5px 5px 5px 5px;
+    float: right;
+    padding: 10px;
+    width: 100px;
+    height: 130px;
+    background-color: aquamarine;
+    color: white;
+}

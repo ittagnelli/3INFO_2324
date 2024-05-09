@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    height: 160px;
+    padding: 20px 20px 20px 5px;
+    color: white;
+    background-color: blueviolet;
+}
+.item{
+    width: calc(33% - 20px);
+    height: calc(100% - 20px);
+    float: right;
+    padding: 10px;
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+.sentence{float: left;}

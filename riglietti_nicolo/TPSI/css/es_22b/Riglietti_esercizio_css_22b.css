@@ -1,0 +1,35 @@
+div{
+    float: left;
+    padding: 5px;
+    
+}
+
+body{
+    margin: 50px;
+}
+
+.viola{
+    background-color: rgb(146, 10, 146) ;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 6px;
+    color: white;
+        
+}
+
+p{
+    margin: 20px;
+    font-size: 1.3rem ;
+}
+
+.p2{
+    margin-top: 0px;
+    font-size: 1.2rem ;
+}
+
+.centro{
+    width: 9.5rem;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 10px;
+}

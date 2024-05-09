@@ -1,0 +1,9 @@
+div {
+    width: 100px;
+    height: 100px;
+    float: left;
+  }
+
+  .bg1{
+     background-color: rgb(183, 77, 245);
+  }

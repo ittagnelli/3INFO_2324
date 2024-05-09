@@ -1,0 +1,25 @@
+div:nth-child(even)>div:nth-child(odd){
+    background-color: green;
+}
+.contenitore:nth-child(odd)>div:nth-child(even){
+    background-color: green;
+}
+
+div {
+  /*  display: inline; */
+    border: 1px solid;
+    margin: 0;
+    width: 5em;
+    height: 5em;
+    padding: 5px;
+  /*  float: left; */
+    text-align: center;
+    line-height: 5rem;
+}
+
+
+.contenitore {
+    float: left;
+    border: 0px;
+}
+

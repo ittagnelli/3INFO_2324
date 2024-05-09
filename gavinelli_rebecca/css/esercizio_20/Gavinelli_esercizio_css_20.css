@@ -1,0 +1,50 @@
+h1{
+  color:blue;
+  font-family: "Zeyada", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 { 
+    color: green;
+    
+      font-family: "Inika", serif;
+      font-weight: 400;
+      font-style: normal;
+    
+      font-family: "Inika", serif;
+      font-weight: 700;
+      font-style: normal;
+    
+}
+ 
+h3{
+  color: green;
+
+  font-family: "Geostar Fill", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.rosso { 
+  color: red;
+}
+
+.verde {
+  color: orange;
+}
+
+.grigio {
+  color: gray;
+}
+
+
+ol.alpha {
+  list-style-type: lower-alpha;
+}
+
+ul.cercho {
+  list-style-type: circle;
+}
+

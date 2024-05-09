@@ -1,0 +1,33 @@
+.div1{
+    float: left;
+    background-color: purple;
+    width: 140px;
+    height: 150px;
+    color: white;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.div2{
+    width: 310px;
+    height: 66px;
+    padding-left: 60px;
+    
+    margin-left: 100px;
+    border-left: 2px;
+}
+
+p{
+    margin: 20px;
+    font-size: 20px;
+}
+
+p2{
+    font-size: 15px;
+}
+
+.div3{
+    float: none;
+    padding-top: 100px;
+    font-size: 20px;
+}

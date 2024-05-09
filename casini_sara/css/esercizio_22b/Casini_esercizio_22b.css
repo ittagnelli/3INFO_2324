@@ -1,0 +1,12 @@
+div {
+    width: 100px;
+    height: 100px;
+    float: left;
+  }
+
+  .bg1{
+     background-color: rgb(115, 46, 155);
+     color: white;
+  }
+  
+  

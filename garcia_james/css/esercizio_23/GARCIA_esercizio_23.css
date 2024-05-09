@@ -1,0 +1,25 @@
+
+.gallery {
+    border: 2px solid black;
+    margin: 0 auto;
+    border: 20px solid #6657bb; 
+    display: table;
+    border-spacing: 5px;
+}
+
+.colonna {
+    display: table-cell;
+    border: 1px solid #000; 
+    text-align: center;
+    width: 150px;
+}
+
+.colonna img {
+    max-width: 100%;
+    height: auto;
+}
+
+.colonna p {
+    font-weight: bold;
+}
+

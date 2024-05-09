@@ -1,0 +1,17 @@
+.parent {
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('fiore.jpg');
+    width: 200px;
+    height: 200px;
+    border: 2px  solid black;
+
+}
+
+.child {
+    color: white;
+    position: relative;
+    top: 20px;
+    text-align: center;
+
+}

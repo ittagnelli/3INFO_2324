@@ -1,0 +1,11 @@
+.parent{
+    width: 100px;
+    height: 100px;
+    background-image: url(pexels-vlad-alexandru-popa-1402787.jpg);
+    
+}
+.child{
+    backdrop-filter: blur(5px);
+    color: white;
+
+}

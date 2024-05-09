@@ -1,0 +1,49 @@
+.parent {
+    width: 99%;
+    height: 1500px;
+    border: 2px black solid;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+.div1 {
+    background-color: lightsalmon;
+    height: 80px;
+    width: 100%;
+}
+
+.child1 {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80px;
+    height: 60px;
+    float: left;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+
+.child2 {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+    width: 130px;
+    height: 60px;
+    float: right;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 60px;
+
+}
