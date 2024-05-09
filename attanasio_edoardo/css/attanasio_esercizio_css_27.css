@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    justify-content: stretch;
+    width: 50%;
+    height: 25%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+}
+.item{
+    width: calc(30% + 66px);
+    line-height: 2em;
+    padding: 10px;
+    font-size: 20px;    
+    background-color: rgba(1, 1, 133, 0.623);
+    border: 2px solid rgba(135, 255, 255, 0.425);
+    border-radius: 10px;
+    color: white;
+}
