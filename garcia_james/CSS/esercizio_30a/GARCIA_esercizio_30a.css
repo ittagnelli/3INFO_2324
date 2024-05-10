@@ -9,7 +9,7 @@
     border: solid red 2px;
     text-align: center;
 }
-.a{ 
+.a{
     grid-column: 2 / 5;
 }
 .b{
