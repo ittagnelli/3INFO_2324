@@ -1,15 +1,19 @@
 .grid-container {
     display: grid;
-    grid-template-columns: 20% 20% 20% 20%;
-    border: 0px solid green;
-    padding: 20px;
-    margin-left: 0px;
+    grid-template-columns: 25% 25% 25% 25%;
+    border: 2px solid green;
     width: 50%;
+    grid-column-start: 1;
+    grid-row-end: 4;
   }
   
   .grid-item {
-      border: 1px solid red;
-      width: 50px;
-      padding: 10px;
+      border: 2px solid red;
+      width: auto;
+      padding:70px;
+      justify-items: stretch;
       text-align: center;
+      align-content: stretch;
+      justify-content: stretch;
+      
   }
