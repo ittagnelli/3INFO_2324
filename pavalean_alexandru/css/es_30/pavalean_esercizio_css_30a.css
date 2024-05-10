@@ -1,0 +1,28 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 
+    repeat(6, 1fr);
+  }
+  
+  .grid-item {
+      border: 1px solid red;
+      padding: 10px;
+      text-align: center;
+  }
+  .a {
+      grid-column: 2 / 5;
+  }
+  
+  .b {
+      grid-row: 2 / 5;
+  }
+
+  .c {
+    grid-row: 2 / 5;
+    grid-column: 2 / 5;
+}
+
+.d {
+    grid-row: 5 / 8 ;
+    grid-column: 5 / 7;
+}
