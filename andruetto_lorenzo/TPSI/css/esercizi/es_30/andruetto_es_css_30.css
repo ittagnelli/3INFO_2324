@@ -1,0 +1,22 @@
+h4{
+    padding-left: 7%;
+}
+
+.container{
+    width: 20%;
+    background-color: orange;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 0;
+}
+
+.grid-item{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-weight: bold;
+    color: black;
+    border: 1px solid black;
+    padding: 20px;
+}
