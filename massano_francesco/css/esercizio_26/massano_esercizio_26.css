@@ -1,0 +1,24 @@
+.container {
+    width: 60%;
+    height: 100px;
+    border: 1px solid #808080;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.div {
+    background-color: rgb(71, 107, 152);
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    color: white;
+    text-transform: capitalize;
+    width: 15%;
+    height: 80%;
+    text-align: center;
+    line-height: 80px;
+    font-weight: bold ;
+    font-size: 20px;
+}

@@ -1,0 +1,121 @@
+.container {
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 50%;
+    height: 400px;
+    position: relative;
+    left: 25%;
+    top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.div0 {
+    background-color: rgb(71, 107, 152);
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    width: 18%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.div1 {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.div2 {
+    background-color: rgb(71, 107, 152);
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    width: 18%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.div3 {
+    background-color: rgb(71, 107, 152);
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    width: 18%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.div4 {
+    background-color: rgb(71, 107, 152);
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    width: 18%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.div5 {
+    background-color: rgb(71, 107, 152);
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    width: 28%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.div6 {
+    background-color: rgb(71, 107, 152);
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    width: 25%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.div7 {
+    background-color: rgb(71, 107, 152);
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    width: 26%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.div8 {
+    background-color: rgb(71, 107, 152);
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    width: 24%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.div9 {
+    background-color: rgb(71, 107, 152);
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    width: 27%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.div10 {
+    background-color: rgb(71, 107, 152);
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    width: 28%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+}

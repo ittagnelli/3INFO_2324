@@ -1,0 +1,28 @@
+.container {
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 50%;
+    height: 400px;
+    position: relative;
+    left: 25%;
+    top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.div {
+    background-color: rgb(71, 107, 152);
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    width: 31%;
+    height: 95%;
+}
+.div1{
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 10px;
+}
