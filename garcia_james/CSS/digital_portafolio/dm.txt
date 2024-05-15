@@ -1,0 +1,13 @@
+<div id="bigr">
+        <div id="links">
+            <div id="sepaR">ANNI SCOLASTICI:</div>
+            <div class="read"><a href="GARCIA_terza.html">TERZA</a></div>
+            <div class="read"><a href="GARCIA_quart.html">QUARTA</a></div>
+            <div class="read"><a href="GARCIA_quint.html">QUINTA</a></div>
+            <div id="sepa">MATERIE:</div>
+            <div class="read"><a href="GARCIA_codf.html">INFORMATICA</a></div>
+            <div class="read"><a href="GARCIA_sto.html">STORIA</a></div>
+            <div class="read"><a href="GARCIA_ita.html">ITALIANO</a></div>
+            <div class="read"><a href="GARCIA_rel.html">RELIGIONE</a></div>
+        </div>
+    </div>

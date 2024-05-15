@@ -1,0 +1,121 @@
+#main{
+    background-color: rgb(71,94,131);
+    height: 2015px;
+    
+    
+}
+h1{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    padding-top: 50px;
+    font-family: "Sedan SC", serif;
+    text-align: center;
+    width: 70%;
+    margin-left: 300px;
+}
+.white{
+    background-color: white;
+    margin-left: 40px;
+    height: 300px;
+    margin-top: 100px;
+    width: 15%;
+    float: left;
+    border-radius: 30px 30px 30px 30px;
+
+}
+.goal{
+    margin-left: 15px;
+    color: rgb(82,72,156);
+    margin-top: 5px;
+    font-weight: bold;
+    font-family: "Sedan SC", serif;
+}
+#white{
+    background-color: white;
+    margin-left: 300px;
+    height: 300px;
+    width: 15%;
+    margin-top: 100px;
+    float: left;
+    border-radius: 30px 30px 30px 30px;
+}
+.title{
+    font-weight: bold;
+    margin-left: 15px;
+    font-family: "Sedan SC", serif;
+}
+.text{
+    height: auto;
+    font-family: "Sedan SC", serif;
+    margin-left: 15px;
+}
+.read{
+    color: rgb(244,91,105);
+    text-align: center;
+    margin-top: 50px;
+    line-height: 45px;
+    height: 45px;
+    width: 170px;
+    font-family: "Sedan SC", serif;
+    margin-left: 55px;
+    background-color: rgb(246,231,222);
+}
+#text{
+    height: 85px;
+    margin-left: 15px;
+}
+
+#right{
+    margin-left: 40px;
+}
+#r{
+    margin-top: 54px;
+}
+#p{
+    margin-top: 100px;
+}
+#l{
+    margin-top: 45px;
+}
+.z{
+    margin-left: 10px;
+}
+
+#search{
+    padding: 10px;
+    width: 5%;
+    height: 15%;
+    background-color: black;
+    border-radius: 50px;
+    border: solid black 1cap;
+   
+    position: absolute;
+    
+
+}
+.se{
+    width: 90%;
+    height: 15%;
+    color: black;
+    text-align: center;
+    border: solid black 1px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 30px;
+    justify-items: stretch;
+    float: left;
+}
+.read:hover{
+    background-color: palevioletred;
+}
+.se:hover{
+    background-color: palevioletred;
+}
+.white:hover{
+    transform: scale(1.1);
+}
+#white:hover{
+    transform: scale(1.1);
+}
+
