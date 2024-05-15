@@ -5,13 +5,16 @@ body {
 
 .grid {
     width: 50%;
-    height: 500px;
+    height: 300px;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(7, 1fr);
 }
 
 .grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 1px solid red;
 }
 
@@ -20,5 +23,12 @@ body {
 }
 
 .b {
-    grid-row: 2 / 4;
+    align-items: start;
+    grid-row: 2 / 5;
+}
+
+.c {
+    align-items: start;
+    grid-row: 5 / 8;
+    grid-column: 5 / 7;
 }
