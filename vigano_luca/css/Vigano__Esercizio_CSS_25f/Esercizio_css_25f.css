@@ -1,0 +1,88 @@
+.cont{
+    border: 5px solid #EBECF0;
+    width: 1000px;
+    height: 558px;
+    background-color: white;
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-columns: 400px 600px;
+}
+
+.img{
+    border: 2px solid purple;
+    width: fit-content;
+    height: fit-content;
+    float: top;
+}
+
+img{
+    width: 400px;
+    height: 250px;
+}
+
+.name{
+    font-size: 50px;
+    width: 260px;
+    padding-left: 70px;
+    padding-right: 70px;
+    float: top;
+
+}
+
+.work{
+    font-size: 20px;
+    font-weight: bolder;
+    padding-bottom: 40px;
+    float: top;
+}
+
+.button{
+    height: 50px;
+    width: 210px;
+    text-align: center;
+    margin-left: 70px;
+    background-color: black;
+    color: white;
+    line-height: 50px;
+    float: top;
+}
+
+.main{
+    padding-top: 90px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #B4D7FF;
+}
+
+.aboutme{
+    font-size: 35px;
+    width: 200px;
+    height: 70px;
+    line-height: 0px;
+    border: 1px solid #B4D7FF;
+}
+
+hr{
+    color: black;
+    border-top: 2px solid black;
+}
+
+.text{
+    word-wrap: break-word;
+    font-size: 18px;
+}
+
+.conty{
+    display: grid;
+    grid-template-columns: 150px 40px 150px;
+}
+
+.block{
+    border: 1px solid black;
+    text-align: center;
+    height: 45px;
+    line-height: 15px;
+    font-size: 15px;
+    font-weight: bold
+
+}

@@ -1,0 +1,17 @@
+.content{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    height: 50%;
+    padding: 10px;
+    justify-content: center;
+}
+.item{
+    border-radius: 10px;
+    background-color: blue;
+    padding: 50px;
+    height: 200px;
+    width: 100px;
+    border: cyan solid 1px;
+    text-align: center;
+}

@@ -1,0 +1,44 @@
+#container{
+    height: 912px;
+    width: 100%;
+    background-color: rgb(71, 94, 131);
+}
+div{
+    border: solid black 1px;
+    color: black    ;
+} 
+#search{
+    padding: 10px;
+    margin-bottom: 90%;
+    height: 20%;
+    background-color: black;
+    border-radius: 50px;
+    border: solid black 1cap;
+
+}
+.se{
+    width: 49%;
+    height: 99%;
+    text-align: center;
+    line-height: 190px;
+    border: solid black 1px;
+    background-color: white;
+    border-radius: 30px;
+    font-size: 30px;
+    float: left;
+}
+
+#sei{
+    margin-left: 33px;
+}
+#s:hover{
+    background-color: grey;
+    color: white;
+}
+#sei:hover{
+    background-color: rgb(181, 181, 181);
+    color: white;
+}
+#big{
+    height: 79%;
+}

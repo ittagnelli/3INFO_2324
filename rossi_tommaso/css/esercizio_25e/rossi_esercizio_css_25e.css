@@ -1,0 +1,92 @@
+.title {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1600px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    font-size: 4em;
+    font-weight: bolder;
+    background-color: #ff6f28;
+    color: white;
+}
+
+.contenitore {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1600px;
+    height: 600px;
+    align-content: center;
+    background-color: #ff6f28;
+}
+
+.goal {
+    height: 75%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cont_struct {
+    float: left;
+    height: 100%;
+    width: 30%;
+    margin-left: 3%;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.goal_1 {
+    margin-left: 4%;
+}
+
+.goal_3 {
+    margin-right: 0;
+}
+
+.goal_title {
+    position: relative;
+    top: 5%;
+    left: 7%;
+    width: 80%;
+    color: #ff6f28;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.goal_sub-t {
+    position: relative;
+    top: 17%;
+    left: 7%;
+    width: 90%;
+    color: black;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.text {
+    position: relative;
+    top: 23%;
+    left: 7%;
+    width: 80%;
+    color: black;
+    font-size: 2em;
+}
+
+.link {
+    position: relative;
+    top: 35%;
+    left: 7%;
+    width: 86%;
+    height: 70px;
+    line-height: 70px;
+    color: #ff6f28;
+    background-color: #f6e7de;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 9px;
+}

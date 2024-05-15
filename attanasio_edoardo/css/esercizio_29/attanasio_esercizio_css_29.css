@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: space-between;
+    width: 40%;
+    height: 300px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 30px;
+}
+.item{
+    height: calc(30% - 64px);
+    padding: 20px 40px 20px 20px;
+    font-size: 30px;
+    background-color: rgba(1, 1, 133, 0.623);
+    border: 2px solid rgba(135, 255, 255, 0.425);
+    border-radius: 10px;
+    color: white;
+}

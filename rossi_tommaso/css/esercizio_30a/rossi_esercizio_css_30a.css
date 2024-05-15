@@ -1,0 +1,27 @@
+.container {
+    height: 90vh;
+    aspect-ratio: 2/1;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+.a {
+    grid-column: 2 / 5;
+}
+
+.b {
+    grid-row: 2 / 4;
+}
+
+.c {
+    grid-row: 5 / 7;
+    grid-column: 5 / 7;
+}
+

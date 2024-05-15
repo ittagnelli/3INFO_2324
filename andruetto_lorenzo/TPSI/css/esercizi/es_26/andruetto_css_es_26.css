@@ -1,0 +1,25 @@
+.container{
+    width: 500px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.container > div{
+    background-color: rgb(54, 91, 238);
+    border: 1px solid aqua;
+    border-radius: 5px;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}

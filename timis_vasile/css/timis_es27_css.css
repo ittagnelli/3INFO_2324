@@ -1,0 +1,34 @@
+.container {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    background-color:whitesmoke;
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+  }
+  .item1 {
+    border-radius: 7px;
+    background-color: #FFAD49;
+    border: 1px solid #FF920D;
+    width: 120px;
+    padding: 10px;
+    text-align:left;
+  }
+  .item2 {
+    border-radius: 7px;
+    background-color: #FFAD49;
+    border: 1px solid #FF920D;
+    width: 120px;
+    padding: 10px;
+    text-align:left;
+  }
+  .item3 {
+    border-radius: 7px; 
+    background-color: #FFAD49;
+    border: 1px solid #FF920D;
+    width: 120px;
+    padding: 10px;
+    text-align:left;
+  }
