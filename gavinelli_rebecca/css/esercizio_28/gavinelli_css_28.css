@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    border: 1px solid lightblue;
+    justify-content: center;
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+  }
+
+  .item {
+    background-color: rgb(28, 128, 228);
+    color: white;
+    width: 80px;
+    padding: 10px;
+  }
