@@ -1,0 +1,29 @@
+.container {
+    width: 90%;
+    aspect-ratio: 16/2;
+    position: fixed;
+    left: 5%;
+    top: 5%;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.item {
+    background-color: blue;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid lightblue;
+    border-radius: 10%;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-transform: capitalize;
+    font-size: larger;
+    color: white;
+    font-weight: bolder;
+    font-family: 'roboto' cursive;
+}
