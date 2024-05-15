@@ -1,0 +1,69 @@
+.container{
+    width: 1000px;
+    height: 600px;
+    border: 10px solid #E1E1E1;
+}
+.first-item{
+    float: left;
+    width: 40%;
+    height: 100%;
+}
+.second-item{
+    float: right;
+    width: calc(60% - 160px);
+    height: calc(100% - 160px);
+    padding: 80px;
+    background-color: #97C9E0;
+}
+.image-item{
+    overflow: hidden;
+    height: 40%;
+    border: 2px solid  purple;
+}
+.first-item-title{
+    padding: 40px 0px 60px 40px;
+    height: calc(60% - 82px);
+}
+.title{
+    height: 100px;
+    width: calc(70% - 20px);
+}
+.subtitle{
+    height: 20px;
+    width: calc(50% - 20px);
+}
+.buttons{
+    height: 20px;
+    border: 1px solid;
+}
+.email-button{
+    color: white;
+    padding: 10px 65px;
+    background-color: black;
+    margin-top: 80px;
+    width: calc(45% - 65px);
+}
+.second-title{
+    font-size: 30px;
+    height: 20px;
+    padding: 0 0 40px 0;
+    border-bottom: 1px solid;
+}
+.paragraph{
+    height: 100px;
+    margin: 40px 0px 80px 0px;
+}
+.resume-button{
+    float: left;
+}
+.portfolio-button{
+    float: right;
+}
+.second-item-buttons{
+    width: 90%;
+}
+.second-item-button{
+    padding: 10px 50px;;
+    width: calc(50% - 125px);
+    font-weight: bold;
+}
