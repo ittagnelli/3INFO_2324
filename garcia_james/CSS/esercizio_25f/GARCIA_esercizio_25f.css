@@ -1,0 +1,128 @@
+
+#container{
+    height: 920px;
+    
+}
+#photo{
+    
+    height: 36.2%;
+    width: 100%;
+    float: left;
+    border-color: purple;
+    border: solid purple 3px;
+    
+}
+#left{
+    width: 26.6%;
+    float: left;
+    height: 920px;
+}
+#bold{
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 80px;
+}
+#bottom{
+    width: 300px;
+    padding-top: 100px;
+    margin-top: 300px;
+    padding-left: 40px;
+    
+}
+#normal{
+    font-size: larger;
+}
+#tasto_nero{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-left: 10px;
+}
+#right{
+    float: left;
+    background-color: rgb(180,215,255);
+    color: black;
+    height: 920px;
+    
+    line-height: 300px;
+    width: 73%;
+    
+}
+#title{
+    float: left;
+    color: black;
+    width: 422px;
+    margin-left: 100px;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 40px;    
+    height: 200px;
+
+}
+#scritta{
+    float: left;
+    color: black;
+    width: 27%;
+    margin-left: 0px;
+    font-size: 20px;
+    height: 250px;
+    margin-top: 60px;
+    line-height: 30px;
+    
+}
+.tasti{
+    float: left;
+    background-color: rgb(180,215,255);
+    color: black;
+    width: 211px;
+    margin-top: 280px;
+    margin-left: 100px;
+    font-weight: bold;
+    text-align: center;
+    height: 50px;
+    border: solid black 1px;
+    line-height: 50px;
+}
+#hr{
+    height: 2px;
+    float: left;
+    background-color: black;
+    width: 65%;
+    margin-top: 10px;
+    margin-left: 100px;
+    float: left;
+    
+}
+.tastis{
+    float: left;
+    background-color: rgb(180,215,255);
+    color: black;
+    border: solid black 1px;
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 280px;
+    text-align: center;
+    font-weight: bold;
+    height: 50px;
+    line-height: 50px;
+}
+#tasto_nero{
+    padding-right: 30px;
+    margin-left: 150px;
+    padding-left: 30px;
+    width: 20%;
+    font-weight: bold;
+    height: 30px;
+    margin-top: 300px;
+    line-height: 30px;
+
+}
+#pt{
+    float: left;
+    width: 80%;
+    margin-left: 100px;
+    height: 50px;
+    margin-top: 40px;
+    line-height: 20px;
+
+}

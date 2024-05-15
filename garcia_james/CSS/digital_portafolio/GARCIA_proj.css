@@ -1,0 +1,75 @@
+#main{
+    background-color: rgb(71,94,131);
+    height: 2015px;
+    
+}
+h1{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    padding-top: 50px;
+    text-align: center;
+    border: solid black 0px;
+}
+.white{
+    background-color: white;
+    margin-left: 40px;
+    height: 300px;
+    margin-top: 100px;
+    width: 15%;
+    float: left;
+    border-radius: 30px 30px 30px 30px;
+
+}
+.goal{
+    margin-left: 15px;
+    color: rgb(255,111,40);
+    margin-top: 5px;
+}
+#white{
+    background-color: white;
+    margin-left: 300px;
+    height: 300px;
+    width: 15%;
+    margin-top: 100px;
+    float: left;
+    border-radius: 30px 30px 30px 30px;
+}
+.title{
+    font-weight: bold;
+    margin-left: 15px;
+}
+.text{
+    height: auto;
+    margin-left: 15px;
+}
+.read{
+    color: rgb(255,111,40);
+    text-align: center;
+    margin-top: 50px;
+    line-height: 45px;
+    height: 45px;
+    width: 170px;
+   
+    margin-left: 55px;
+    background-color: rgb(246,231,222);
+}
+#text{
+    height: 85px;
+    margin-left: 15px;
+}
+div{
+    border: solid black 1px;
+}
+#right{
+    margin-left: 40px;
+}
+#r{
+    margin-top: 25px;
+}
+#p{
+    margin-top: 69px;
+}
+#l{
+    margin-top: 32px;
+}
