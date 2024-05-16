@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    width: 400px;
+    height: 200px ;
+    padding: 10px;
+    border: 1px solid rgb(0, 155, 194);
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+  }
+  .item {
+    background-color: #356190;
+    color: white;
+    width: 100px;
+    height: 20px;
+    padding: 10px;
+
+ }

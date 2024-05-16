@@ -1,0 +1,45 @@
+.contenitore{
+    width: 800px;
+    background-color: rgb(204, 229, 238);
+    padding: 1rem; 
+}
+
+.testo {
+    color: white;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.header {
+    background-color: rgb(233, 139, 51);
+     width: 100%; 
+    height: 60px;
+}
+
+.footer {
+    border: 0px solid black;
+    background-color: rgb(121, 228, 0);
+    height: 60px;
+    clear: both;
+}
+
+.centercontent{
+    width: 33.3%;
+    height: 250px;
+    float: left;
+    background-color: rgba(33, 110, 155, 0.76);
+}
+
+.rightcontent{
+    width: 33.3%;
+    height: 250px;
+    float: left;
+    background-color: rgb(32, 73, 119);
+}
+
+.leftcontent{
+    width: 33.3%;
+    height: 250px;
+    float: left;
+    background-color: rgb(236, 176, 97);
+}
