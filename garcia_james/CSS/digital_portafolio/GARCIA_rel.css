@@ -1,0 +1,78 @@
+#container{
+    height: 912px;
+    width: 100%;
+    background-color: rgb(71, 94, 131);
+}
+#name{
+    height: 20%;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 100px;
+    font-family: "Sedan SC", serif;
+}
+#left{
+    width: 50%;
+    float: left;
+    padding-left: 10px;
+}
+div{
+    border: solid 0px black;
+}
+#txt{
+    line-height: 80px;
+    font-size: 27px;
+    border-top: solid 3px black;
+    border-bottom: solid 3px black;
+    font-weight: bold;
+    
+    
+}
+#right{
+    float: right;
+    width: 47%;
+    
+    height: 67%;
+}
+img{
+    width: 100%;
+    border-right: 10px;
+    height: 100%;
+    float: left;
+}
+#pic{
+    width: 99%;
+   
+}
+#search{
+    padding: 10px;
+    width: 5%;
+    height: 15%;
+    background-color: black;
+    border-radius: 50px;
+    border: solid black 1cap;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.se{
+    width: 90%;
+    height: 20%;
+    color: black;
+    text-align: center;
+    border: solid black 1px;
+    margin-top: 25%;
+    background-color: white;
+    font-family: "Sedan SC", serif;
+    border-radius: 30px;
+    justify-items: stretch;
+    float: left;
+    line-height: 30px;
+}
+.se:hover{
+    background-color: palevioletred;
+}
+#m{
+    color: white;
+}

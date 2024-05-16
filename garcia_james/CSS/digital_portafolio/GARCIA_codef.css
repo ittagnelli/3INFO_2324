@@ -25,6 +25,7 @@ div{
     font-size: 27px;
     border-top: solid 3px black;
     border-bottom: solid 3px black;
+    font-weight: bold;
     
     
 }
@@ -65,9 +66,14 @@ img{
     background-color: white;
     border-radius: 30px;
     justify-items: stretch;
+    font-family: "Sedan SC", serif;
     float: left;
     line-height: 30px;
 }
 .se:hover{
     background-color: palevioletred;
+}
+#m{
+    color: white;
+    
 }

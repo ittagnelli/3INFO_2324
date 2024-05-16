@@ -11,32 +11,34 @@ div{
     padding: 10px;
     height: 20%;
     width: 97%;
-    background-color: black;
+    background-color: rgb(51, 101, 138);
     margin-left: 8px;
     border-radius: 50px;
-    border: solid black 1cap;
+    border: solid rgb(47, 72, 88) 1cap;
 
 }
 .se{
-    width: 45%;
-    height: 99%;
+    width: 10%;
+    height: 27%;
     text-align: center;
-    line-height: 190px;
-    border: solid black 1px;
-    background-color: white;
+    font-family: "Sedan SC", serif;
+    border: solid black 0px;
+    background-color: rgb(51, 101, 138);
+    color: white;
     border-radius: 30px;
     font-size: 30px;
-    margin-left: 70px;
+    margin-left: 280px;
+    margin-top: 3.2%;
     float: left;
 }
 
 #s:hover{
-    background-color: grey;
-    color: white;
+    background-color: white;
+    color: black;
 }
 #sei:hover{
-    background-color: rgb(181, 181, 181);
-    color: white;
+    background-color: white;
+    color: black;
 }
 #big{
     width: 40%;
@@ -71,8 +73,9 @@ div{
 
 }
 #txt{
-    height: 40%;
-    margin-top: 50px;
+    height: 47%;
+    width: 80%;
+    margin-top: 20px;
     font-size: 22px;
     line-height: 40px;
     margin-left: 10px;
@@ -98,7 +101,7 @@ div{
 }
 #links{
     width: 100%;
-    line-height: 49px;
+    line-height: 43px;
     height: 100%;
     font-weight: bold;
     
@@ -116,7 +119,7 @@ div{
     width: 100%;
 }
 #sepaR{
-    margin-top: 5px;
+    margin-top: 0px;
     width: 100%;
     font-size: 24px;
 }
@@ -125,8 +128,8 @@ div{
     font-size: 24px;
 }
 #list{
-    height: 100%;
-    margin-top: 50px;
+    height: 70%;
+    margin-top: 30px;
     font-size: 25px;
     color: white;
     margin-left: 20px;
@@ -134,12 +137,12 @@ div{
 #bb{
     float: right;
     width: 44.5%;
-    height: 75%;
+    height: 70%;
 }
 #t{
     font-size: 30px;
     font-weight: bold;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 56px;
 }
 .span{
@@ -151,11 +154,27 @@ hr{
 #hr{
     width: 80%;
     margin-right: 140px;
+    margin-top: 120px;
 }
 .hr{
     width: 70%;
     margin-right: 1400px;
+    margin-top: 20px;
 }
 #fl{
     margin-left: 55px;
+}
+a{
+    color: white;
+}
+#imgg{
+    float: left;
+    width: 15%;
+    border-radius: 100px;
+    height: 15%;
+    margin-top: 35px;
+    margin-right: 20px;
+}
+#m{
+    color: black;
 }

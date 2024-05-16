@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 700px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.item {
+    background-color: #355da8;
+    color: white;
+    border-radius: 7px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.item:nth-child(1) {
+    width: 70px;
+}
+

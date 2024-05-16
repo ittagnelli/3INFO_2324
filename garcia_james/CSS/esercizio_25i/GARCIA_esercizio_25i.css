@@ -1,0 +1,118 @@
+/* div {
+    border: 1px solid;
+    margin-top: 1px;
+} */
+
+.container {
+    height: 600px;
+    width: 996px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    background-color: rgb(0,75,132);
+}
+
+.container2{
+    width: 250px;
+    height: 600px;
+    float: left;
+}
+#left1 {
+    width: 250px;
+    height: 185px;
+    border-radius: 15px;
+    background-color:rgb(254,254,254);
+    text-align: center;
+    line-height: 185px;
+    color: rgb(249,116,166);
+    font-weight: bold;
+}
+
+#left2 {
+    margin-top: 10px;
+    height: 380px;
+    border-radius: 15px;
+    background-color: rgb(121,201,250);
+    text-align: center;
+    color:white;
+}
+
+.container3{
+    width: 300px;
+    height: 600px;
+    float: left;
+    margin-left: 10px;
+}
+
+#center1 {
+    width: 300px;
+    height: 185px;
+    border-radius: 15px;
+    background-color: rgb(249,116,166);
+    text-align: center;
+    color:white;
+    line-height: 180px;
+}
+
+#center2 {
+    width: 300px;
+    height: 185px;
+    border-radius: 15px;
+    margin-top: 10px;
+    background-color: rgb(121,201,250);
+    text-align: center;
+    color:white;
+    line-height: 180px;
+}
+
+#center3 {
+    width: 300px;
+    height: 185px;
+    border-radius: 15px;
+    margin-top: 10px;
+    background-color: rgb(249,116,166);
+    text-align: center;
+    color:white;
+    line-height: 180px;
+}
+
+.container4{
+    width: 420px;
+    height: 600px;
+    float: left;
+    margin-left: 10px;
+}
+
+#right1 {
+    width: 410px;
+    height: 185px;       
+    border-radius: 15px;
+    background-color: rgb(249,116,166);
+    text-align: center;
+    color:white;
+    line-height: 180px;
+    
+}
+
+#right2 {
+    width: 200px;
+    margin-top: 10px;
+    height: 380px;
+    border-radius: 15px;
+    float: left;
+    background-color: rgb(121,201,250);
+    text-align: center;
+    color:white;
+}
+
+#right3 {
+    width: 200px;
+    margin-top: 10px;
+    height: 380px;
+    border-radius: 15px;
+    margin-left: 210px;
+    background-color: rgb(249,116,166);
+    text-align: center;
+    color:white;
+}

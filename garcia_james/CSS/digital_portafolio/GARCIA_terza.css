@@ -100,6 +100,7 @@ h1{
     color: black;
     text-align: center;
     border: solid black 1px;
+    font-family: "Sedan SC", serif;
     margin-top: 20px;
     background-color: white;
     border-radius: 30px;
@@ -118,4 +119,17 @@ h1{
 #white:hover{
     transform: scale(1.1);
 }
-
+#k{
+    color: rgb(244,91,105);
+    text-align: center;
+    margin-top: 17px;
+    line-height: 45px;
+    height: 45px;
+    width: 170px;
+    font-family: "Sedan SC", serif;
+    margin-left: 55px;
+    background-color: rgb(246,231,222);
+}
+#k:hover{
+    background-color: palevioletred;
+}
