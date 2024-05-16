@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.grid {
+    width: 30%;
+    height: 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5%;
+}
+
+.grid-item {
+    display: flex;
+    height: 90%;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    padding-left: 20%;
+    border-radius: 10px;
+    background-color: #444444;
+}
