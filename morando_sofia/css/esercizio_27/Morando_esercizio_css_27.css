@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    width: 800px;
+    padding: 10px;
+  }
+  .item {
+    background-color: #356190;
+    border: 1px solid #0dbeff;
+    color: white;
+    width: 200px;
+    height: 230px;
+    padding: 10px;
+    border-radius:10px; 
+ }
