@@ -1,0 +1,13 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 50px 50px 50px;
+  grid-template-rows: 50px 50px 50px;   
+  grid-column-gap: 30px;
+  grid-row-gap: 10px;
+  border-radius: 20%;
+}
+
+.item {
+    background-color: black;
+    text-align: center; 
+}
