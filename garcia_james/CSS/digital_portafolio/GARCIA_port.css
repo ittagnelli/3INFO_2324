@@ -9,36 +9,172 @@ div{
 } 
 #search{
     padding: 10px;
-    margin-bottom: 90%;
     height: 20%;
-    background-color: black;
+    width: 97%;
+    background-color: rgb(51, 101, 138);
+    margin-left: 8px;
     border-radius: 50px;
-    border: solid black 1cap;
+    border: solid rgb(47, 72, 88) 1cap;
 
 }
 .se{
-    width: 49%;
-    height: 99%;
+    width: 10%;
+    height: 27%;
     text-align: center;
-    line-height: 190px;
-    border: solid black 1px;
-    background-color: white;
+    font-family: "Sedan SC", serif;
+    border: solid black 0px;
+    background-color: rgb(51, 101, 138);
+    color: white;
     border-radius: 30px;
     font-size: 30px;
+    margin-left: 280px;
+    margin-top: 3.2%;
     float: left;
 }
 
-#sei{
-    margin-left: 33px;
-}
 #s:hover{
-    background-color: grey;
-    color: white;
+    background-color: white;
+    color: black;
 }
 #sei:hover{
-    background-color: rgb(181, 181, 181);
-    color: white;
+    background-color: white;
+    color: black;
 }
 #big{
-    height: 79%;
+    width: 40%;
+    height: 75%;
+    float: left;
+    
+}
+#im{
+    float: right;
+    width: 14.5%;
+    margin-right: 10px;
+    
+}
+
+div{
+    border: 0px solid black;
+}
+#name{
+    margin-top: 50px;
+    width: 60%;
+    font-family: "Sedan SC", serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+#u{
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: center;
+    font-family: "Sedan SC", serif;
+    width: 40%;
+
+}
+#txt{
+    height: 47%;
+    width: 80%;
+    margin-top: 20px;
+    font-size: 22px;
+    line-height: 40px;
+    margin-left: 10px;
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+      
+}
+#img{
+    float: right;
+    width: 15%;
+    border-radius: 100px;
+    height: 15%;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+#bigr{
+    float: left;
+    margin-top: 30px;
+    width:15%;
+    height: 72.5%;
+    
+}
+#links{
+    width: 100%;
+    line-height: 43px;
+    height: 100%;
+    font-weight: bold;
+    
+
+}
+#lol{
+    float: right;
+    background-image: url(Screenshot\ from\ 2024-05-05\ 15-21-35.png);
+    width: 23%;
+    height: 14%;
+    margin-bottom: 20px;
+}
+.read{
+    color: purple;
+    width: 100%;
+}
+#sepaR{
+    margin-top: 0px;
+    width: 100%;
+    font-size: 24px;
+}
+#sepa{
+    width: 100%;
+    font-size: 24px;
+}
+#list{
+    height: 70%;
+    margin-top: 30px;
+    font-size: 25px;
+    color: white;
+    margin-left: 20px;
+}
+#bb{
+    float: right;
+    width: 44.5%;
+    height: 70%;
+}
+#t{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 56px;
+}
+.span{
+    font-weight: bold;
+}
+hr{
+    border: solid black 2px;
+}
+#hr{
+    width: 80%;
+    margin-right: 140px;
+    margin-top: 120px;
+}
+.hr{
+    width: 70%;
+    margin-right: 1400px;
+    margin-top: 20px;
+}
+#fl{
+    margin-left: 55px;
+}
+a{
+    color: white;
+}
+#imgg{
+    float: left;
+    width: 15%;
+    border-radius: 100px;
+    height: 15%;
+    margin-top: 35px;
+    margin-right: 20px;
+}
+#m{
+    color: black;
 }
