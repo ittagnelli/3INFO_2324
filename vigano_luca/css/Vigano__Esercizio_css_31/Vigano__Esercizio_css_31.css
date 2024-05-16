@@ -1,0 +1,17 @@
+.cont{
+    display: grid;
+    width: 325px;
+    height: 175px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.square{
+    width: 75px;
+    height: 50px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: grey;
+    padding: 10px;
+    color: white;
+}
