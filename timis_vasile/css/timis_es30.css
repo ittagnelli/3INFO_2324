@@ -1,0 +1,28 @@
+.nome {
+    font-size: 30px;
+    font-weight: bold;
+    width: 22%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.grandezza {
+    border: 2px solid;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 22%;
+    background-color: orange;
+    
+}
+
+.item {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;    
+    border: 1px solid; 
+    font-weight: bold;
+    font-size: 20px;
+}
