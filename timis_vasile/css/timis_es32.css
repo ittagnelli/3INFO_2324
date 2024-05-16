@@ -1,0 +1,41 @@
+.grandezza {
+    display: grid;
+    grid-template-columns: 14% 14% 10%;
+     grid-template-rows: 110% 110% 110%;
+    width: 70%;
+    row-gap: 25px;
+    column-gap: 25px;
+}
+
+.item {
+    border: 1px solid;
+    border-radius: 13px;
+    padding-left: 10px; 
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;    
+    background-color: rgb(68,68,68);
+}
+
+.A {
+    grid-column: 1/3;
+    align-items: center;    
+}
+
+
+.B {
+    /* grid-column: 1/2; */
+    grid-row: 1/3; 
+    grid-column: 3/3;
+    padding-top: 10px;
+       
+}
+
+.C {
+    align-items: center;
+}
+
+.D {
+    align-items: center;
+}
