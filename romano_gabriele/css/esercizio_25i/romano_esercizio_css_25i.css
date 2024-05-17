@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.contenitore {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 5%;
+    width: 80%;
+    height: 750px;
+    background-color: #004B84;
+}
+
+.contenitore div {
+    border-radius: 40px;
+}
+
+.cont-3 {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5%;
+}
+
+.dim1 {
+    width: 20%;
+}
+
+.dim2 {
+    width: 25%;
+}
+
+.dim3 {
+    width: 40%;
+}
+
+.dim3-2 {
+    width: 47.5%;
+}
+
+.ho {
+    height: 27.5%;
+}
+
+.hv {
+    height: 60%;
+}
+
+.w {
+    background-color: #FEFEFE;
+}
+
+.lb {
+    
+    background-color: #79C9FA;
+}
+
+.r {
+    background-color: #F974A6;
+}
+
+.rs {
+    background-color: #FFA5C6;
+}

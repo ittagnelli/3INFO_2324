@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.contenitore {
+    width: 50%;
+    height: 500px;
+}
+
+.grid {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-color: #FF8C00;
+}
+
+.grid > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: 2px solid black;
+}
