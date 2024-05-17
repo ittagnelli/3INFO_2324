@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 40%;
+    height: 40vh;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    column-gap: 3%;
+    row-gap: 6%;
+}
+
+.grid-item {
+    display: flex;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.a {
+    align-items: center;
+    grid-column: 1 / 6;
+    background-color: #999999;
+}
+
+.b {
+    grid-row: 2 / 5;
+    background-color: #444444;
+}
+
+.c {
+    grid-column: 2 / 5;
+}
+
+.d {
+    color: black;
+    background-color: #CCCCCC;
+}
