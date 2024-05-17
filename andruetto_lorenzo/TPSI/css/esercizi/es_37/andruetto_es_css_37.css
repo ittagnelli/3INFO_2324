@@ -1,0 +1,75 @@
+body{
+    background-color: royalblue;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+@media all and (min-width: 601px){
+    .container{
+        background-color: white;
+        width: 60vw;
+        height: 80vh;
+        padding: 40px;
+        display: grid;
+        grid-gap: 20px 20px;
+        grid-template-columns: repeat(6, minmax(max-content, 1fr));
+        grid-template-rows: repeat(3, minmax(max-content, 1fr));
+        grid-template-areas:
+            "a a b b e e"
+            "a a c d e e"
+            "a a c d e e";
+    }
+}
+
+.a{
+    grid-area: a;
+    background-image: url(https://fastly.picsum.photos/id/903/300/600.jpg?hmac=q64wJn7erL7tD6jtBq4EvT1W_NVgb-gF-T6nwUkjgqU);
+    background-position: center;
+    background-size: cover;
+}
+
+.b{
+    grid-area: b;
+    background-image: url(https://fastly.picsum.photos/id/319/300/300.jpg?hmac=wxlUPNzIed7hui1p7I3INBvuJBdO-ds9QfBCLj3DYT8);
+    background-position: center;
+    background-size: cover;
+}
+
+.c{
+    grid-area: c;
+    background-image: url(https://fastly.picsum.photos/id/836/200/300.jpg?hmac=L-CzyTvvlLpEhWX6BR0OXWYiR9jb-tmvnCvH5PfdDtE);
+    background-position: center;
+    background-size: cover;
+} 
+
+.d{
+    grid-area: d;
+    background-image: url(https://fastly.picsum.photos/id/1051/200/300.jpg?hmac=l1jFNN1wGY2r8gVAipnoabHxa9LKBSoOTznSjOYWsUY);
+    background-position: center;
+    background-size: cover;
+}
+
+.e{
+    grid-area: e;
+    background-image: url(https://fastly.picsum.photos/id/301/300/600.jpg?hmac=z7FqZXEmcjW6zjrIuA5OUYhNYdNiCvlTbN6dHcNZHZI);
+    background-position: center;
+    background-size: cover;
+}
+
+/*MOBILE*/
+@media screen and (max-width: 600px){
+    .container{
+        background-color: white;
+        width: 60vw;
+        height: 80vh;
+        padding: 40px;
+        display: grid;
+        grid-gap: 20px 20px;
+        flex-direction: column;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1fr);
+    }
+}

@@ -1,0 +1,33 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 70px);
+    grid-template-rows: 60px 60px;
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-areas:
+        "a a b"
+        "c d b";
+}
+
+.a{
+    grid-area: a;
+}
+
+.b{
+    grid-area: b;
+}
+
+.c{
+    grid-area: c;
+}
+
+.d{
+    grid-area: d;
+}
+
+.grid-item{
+    background-color: rgb(59, 56, 56);
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+}

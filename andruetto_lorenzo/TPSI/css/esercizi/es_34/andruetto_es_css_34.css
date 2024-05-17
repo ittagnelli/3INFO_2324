@@ -1,0 +1,47 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 110px);
+    grid-template-rows: repeat(3, 60px);
+    column-gap: 15px;
+    row-gap: 15px;
+    grid-template-areas: 
+        "a a a a"
+        "b c c d"
+        "e e e e";
+}
+
+.grid-item{
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+}
+
+.a{
+    grid-area: a;
+    background-color: grey;
+    height: 25px;
+    line-height: 25px;
+    align-self: flex-end;
+}
+
+.b{
+    grid-area: b;
+    background-color: rgb(59, 56, 56);
+}
+
+.c{
+    grid-area: c;
+    background-color: rgb(59, 56, 56);
+}
+
+.d{
+    grid-area: d;
+    background-color: lightgray;
+}
+
+.e{
+    grid-area: e;
+    background-color: grey;
+    height: 25px;
+    line-height: 25px;
+}

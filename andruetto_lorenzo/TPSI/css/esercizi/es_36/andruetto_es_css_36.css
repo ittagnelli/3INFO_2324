@@ -1,0 +1,75 @@
+body{
+    background-color: royalblue;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+@media all and (min-width: 601px){
+    .container{
+        background-color: white;
+        width: 60vw;
+        height: 80vh;
+        padding: 40px;
+        display: grid;
+        grid-gap: 20px 20px;
+        grid-template-columns: repeat(6, minmax(max-content, 1fr));
+        grid-template-rows: repeat(3, minmax(max-content, 1fr));
+        grid-template-areas:
+            "a a b b e e"
+            "a a c d e e"
+            "a a c d e e";
+    }
+}
+
+.a{
+    grid-area: a;
+    background-image: url(http://via.placeholder.com/300x600);
+    background-position: center;
+    background-size: cover;
+}
+
+.b{
+    grid-area: b;
+    background-image: url(http://via.placeholder.com/300x300);
+    background-position: center;
+    background-size: cover;
+}
+
+.c{
+    grid-area: c;
+    background-image: url(http://via.placeholder.com/200x300);
+    background-position: center;
+    background-size: cover;
+} 
+
+.d{
+    grid-area: d;
+    background-image: url(http://via.placeholder.com/200x300);
+    background-position: center;
+    background-size: cover;
+}
+
+.e{
+    grid-area: e;
+    background-image: url(http://via.placeholder.com/300x600);
+    background-position: center;
+    background-size: cover;
+}
+
+/*MOBILE*/
+@media screen and (max-width: 600px){
+    .container{
+        background-color: white;
+        width: 60vw;
+        height: 80vh;
+        padding: 40px;
+        display: grid;
+        grid-gap: 20px 20px;
+        flex-direction: column;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1fr);
+    }
+}
