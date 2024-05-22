@@ -1,0 +1,13 @@
+.grid-conteiner{
+    background-color: orange;
+    width: 25%;
+    height: 20%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.grid-item{
+    font-weight: bolder;
+    text-align: center;
+    padding: 50px;
+    border: solid black 2px;
+}

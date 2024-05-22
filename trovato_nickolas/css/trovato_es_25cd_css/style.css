@@ -1,0 +1,45 @@
+body{
+    margin: 0%;
+    background-color: rgba(121,219,235,255);
+}
+.container{
+    margin: 10px;
+    padding-left: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 95vh;
+}
+.container>div{
+    float: left;
+    width: 20%;
+    height: 100%;
+}
+.container>div:nth-child(odd){
+    background-image: url("https://picsum.photos/id/232/1200/900");
+    border: solid white 10px;
+    width: 70%;
+    height: 97.5%;
+}
+.container>div:nth-child(even){
+    height: 100%;
+    background-color: rgba(0,46,74,255);
+
+    text-align: center;
+    
+}
+h1,h2,p{
+    color: white;
+    text-transform: uppercase;
+}
+.bar{
+    margin-bottom: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 10px;
+    background-color: white;
+}
+ul{
+    list-style: none;
+    padding: 0%;
+}

@@ -1,0 +1,11 @@
+.stycky{
+    color: yellow;
+    position: fixed;
+    top: 10px;
+    left: 30px;
+    font-size: x-large;
+}
+.imagescroll>img{
+    width: 50%;
+    height: 50%;
+}

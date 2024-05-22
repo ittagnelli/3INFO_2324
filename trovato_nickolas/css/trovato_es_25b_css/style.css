@@ -1,0 +1,35 @@
+.head{
+    background-color: rgb(209, 136, 0);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+p{
+
+    padding-left: 10px;
+}
+div{
+    text-transform: uppercase;
+    color: white;
+}
+.float>div{
+    float: left; 
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.float>.col1{
+    background-color: rgb(233, 169, 50); 
+    width: 33%;
+}
+.float>.col2{
+    background-color: rgb(106, 184, 252);
+    width: 34%;
+}
+.float>.col3{
+    background-color: rgb(8, 75, 134);
+    width: 33%;
+}
+.footer{
+    background-color: green;
+    line-height: 80px;
+    padding-top: 20px;
+}
