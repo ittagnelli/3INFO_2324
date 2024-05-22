@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(64, 104, 179);
+}
+
+.a {
+    background: url(http://via.placeholder.com/300x300);
+    background-size: cover;
+    background-position: center;
+}
+
+.b {
+    background: url(http://via.placeholder.com/200x300);
+    background-size: cover;
+    background-position: center;
+}
+
+.c {
+    background: url(http://via.placeholder.com/200x300);
+    background-size: cover;
+    background-position: center;
+}
+
+.d {
+    background: url(http://via.placeholder.com/300x600);
+    background-size: cover;
+    background-position: center;
+}
+
+.e {
+    background: url(http://via.placeholder.com/300x600);
+    background-size: cover;
+    background-position: center;
+}
+
+@media all and (min-width: 601px) {
+    .container {
+        background-color: white;
+        width: 60vw;
+        height: 80vh;
+        padding: 40px;
+        display: grid;
+        grid-gap: 20px 20px;
+        grid-template-columns: 6;
+        grid-template-rows: 3;
+        grid-template-areas:
+            "d d a a e e"
+            "d d b c e e"
+            "d d b c e e";
+        margin-top: 3%;
+        margin-left: 17%;
+    }
+
+    .item {
+        background-color: rgb(204, 204, 204);
+    }
+
+    .a {
+        grid-area: a;
+    }
+
+    .b {
+        grid-area: b;
+    }
+
+    .c {
+        grid-area: c;
+    }
+
+    .d {
+        grid-area: d;
+    }
+
+    .e {
+        grid-area: e;
+
+    }
+
+}
+
+@media all and (max-width: 600px) {
+    .container {
+        background-color: white;
+        width: 60vw;
+        height: 80vh;
+        padding: 40px;
+        display: grid;
+        grid-gap: 20px;
+        flex-direction: column;
+        grid-template-columns: 1;
+        grid-template-rows: 5;
+        margin-left: 13%;
+        margin-top: 7%;
+    }
+
+}
