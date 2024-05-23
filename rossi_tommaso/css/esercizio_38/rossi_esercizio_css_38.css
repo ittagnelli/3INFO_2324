@@ -3,35 +3,99 @@ body {
     margin: 0px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    background-color: bisque;
 }
-
-div {
-    border: 1px solid black;
-}
-
 .container {
-    width: 80%;
-    height: 80%;
+    width: 75%;
+    height: 90%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
 }
 
 .left-content {
+    padding-top: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    background-color: blue;
+    gap: 5%;
+    background-color: #414141;
 }
 
 .img {
-    background-image: url(https://picsum.photos/300/300);
+    background-image: url(https://via.placeholder.com/300x300);
     background-size: cover;
     background-position: center;
     border-radius: 100%;
     aspect-ratio: 1;
-    width: 60%;
+    width: 50%;
+}
+
+.title {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+
+.subtitle {
+    text-transform: capitalize;
+    color: white;
+    font-weight: bold;
+    font-size: large;
 }
 
 .right-content {
     grid-column: 2 / span 3;
+    background-color: white;
+}
+
+.p-1 {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 15%;
+    justify-items: center;
+}
+
+.p-1 > .title{
+    font-size: xx-large;
+}
+
+.p-1 > .subtitle{
+    font-size: x-large;
+}
+
+.p-2 {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 5%;
+    row-gap: 25%;
+    align-self: self-start;
+    margin-left: 5%;
+    height: 15%;
+}
+
+.p-2 > div {
+    font-size: 1.1em;
+    padding-top: 1.5%;
+}
+
+.p-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    padding-top: 5%;
+    justify-content: space-around;
+    height: 30%;
+    text-align: justify;
+    font-size: 1.1em;
+    color: white;
+}
+
+.p-3 > .title{
+    font-size: large;
 }
