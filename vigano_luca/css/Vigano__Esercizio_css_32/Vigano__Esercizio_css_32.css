@@ -1,0 +1,27 @@
+.cont{
+    display: grid;
+    width: 325px;
+    height: 175px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.square{
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: grey;
+    padding: 10px;
+    color: white;
+}
+
+.a{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.b{
+    grid-row: 1/3;
+    grid-column-start: 3;
+}
