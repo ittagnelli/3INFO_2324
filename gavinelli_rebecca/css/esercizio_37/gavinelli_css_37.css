@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #4068B3;
+}
+
+.container {
+    width: 70%;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 1.5%;
+    row-gap: 2%;
+    padding: 2%;
+    background-color: white;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-color: #CCCCCC;
+    background-size: cover;
+    background-position: center;
+}
+
+.d1 {
+    background-image: url(http://picsum.photos/300/600);
+}
+
+.d2 {
+    background-image: url(http://picsum.photos/300/300);
+}
+
+.d3 {
+    background-image: url(http://picsum.photos/200/300);
+}
+
+.a {
+    grid-column: 1 / 3;
+    grid-row: 1 / 4;
+}
+
+.b {
+    grid-column: 3 / 5;
+}
+
+.c {
+    grid-row: 2 / 4;
+}
+
+.d {
+    grid-column: 5 / 7;
+    grid-row: 1 / 4;
+}
+
+@media all and (max-width: 736px) {
+    .container {
+        width: 30%;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1fr);
+        padding: 3.5%;
+    }
+
+    .a {
+        grid-column: auto;
+        grid-row: 4 / 5;
+    }
+
+    .b {
+        grid-column: auto;
+        grid-row: auto;
+    }
+
+    .c {
+        grid-column: auto;
+        grid-row: auto;
+    }
+
+    .d {
+        grid-column: auto;
+        grid-row: auto;
+    }
+}
