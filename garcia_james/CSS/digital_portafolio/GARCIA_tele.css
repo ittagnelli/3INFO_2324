@@ -36,13 +36,15 @@ div{
     height: 67%;
 }
 img{
-    width: 100%;
+    width: 80%;
     border-right: 10px;
     height: 100%;
     float: left;
 }
 #pic{
-    width: 99%;
+    width: 90%;
+    margin-left: 90px;
+    height: 70%;
    
 }
 #search{
